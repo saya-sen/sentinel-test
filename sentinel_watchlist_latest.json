@@ -1,12 +1,12 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.9",
-  "relay_sequence": 4,
-  "relay_pushed_at_utc": "2026-09-04T04:01:23+00:00",
-  "relay_epoch_ms": 1788494483144,
+  "relay_sequence": 1,
+  "relay_pushed_at_utc": "2026-09-04T04:08:16+00:00",
+  "relay_epoch_ms": 1788494896967,
   "freshness_status": "fresh",
-  "fresh_until_utc": "2026-09-04T04:03:53+00:00",
+  "fresh_until_utc": "2026-09-04T04:10:46+00:00",
   "stale_after_seconds": 150,
-  "cycle_duration_ms": 63528,
+  "cycle_duration_ms": 37634,
   "collection_status": "healthy",
   "stock_count": 5,
   "success_count": 5,
@@ -16,7 +16,7 @@
   "orderbook_error_count": 0,
   "orderbook_failed_codes": [],
   "change_detection": {
-    "compared_with_relay_sequence": 3,
+    "compared_with_relay_sequence": 4,
     "price_move_alert_pct": 1.0,
     "volume_delta_alert": 50000,
     "alert_count": 0,
@@ -25,152 +25,152 @@
   "stocks": [
     {
       "ok": true,
-      "sentinel_version": "SENTINEL BRIDGE v0.2",
+      "sentinel_version": "SENTINEL BRIDGE v0.3",
       "environment": "VTS",
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 31450,
-      "change": 350,
-      "change_rate_pct": 1.13,
+      "price": 31350,
+      "change": 250,
+      "change_rate_pct": 0.8,
       "open": 31100,
       "high": 31800,
       "low": 30850,
-      "volume": 12005,
-      "trading_value": 373615500,
-      "received_at": "2026-09-04 13:00:23",
+      "volume": 12608,
+      "trading_value": 392393350,
+      "received_at": "2026-09-04 13:07:40",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
       "orderbook": {
         "best_ask": {
           "level": 1,
-          "price": 31450,
-          "quantity": 29
+          "price": 31350,
+          "quantity": 121
         },
         "best_bid": {
           "level": 1,
-          "price": 31150,
-          "quantity": 5
+          "price": 31050,
+          "quantity": 135
         },
-        "total_ask_quantity": 1829,
-        "total_bid_quantity": 2704,
-        "bid_ask_ratio": 1.4784,
+        "total_ask_quantity": 1733,
+        "total_bid_quantity": 2971,
+        "bid_ask_ratio": 1.7144,
         "asks": [
           {
             "level": 1,
-            "price": 31450,
-            "quantity": 29
+            "price": 31350,
+            "quantity": 121
           },
           {
             "level": 2,
-            "price": 31500,
-            "quantity": 400
+            "price": 31400,
+            "quantity": 120
           },
           {
             "level": 3,
+            "price": 31450,
+            "quantity": 2
+          },
+          {
+            "level": 4,
+            "price": 31500,
+            "quantity": 401
+          },
+          {
+            "level": 5,
             "price": 31600,
             "quantity": 36
           },
           {
-            "level": 4,
+            "level": 6,
             "price": 31650,
             "quantity": 156
           },
           {
-            "level": 5,
+            "level": 7,
             "price": 31700,
             "quantity": 200
           },
           {
-            "level": 6,
+            "level": 8,
             "price": 31750,
             "quantity": 97
           },
           {
-            "level": 7,
+            "level": 9,
             "price": 31800,
             "quantity": 280
           },
           {
-            "level": 8,
+            "level": 10,
             "price": 31850,
             "quantity": 320
-          },
-          {
-            "level": 9,
-            "price": 31900,
-            "quantity": 310
-          },
-          {
-            "level": 10,
-            "price": 31950,
-            "quantity": 1
           }
         ],
         "bids": [
           {
             "level": 1,
-            "price": 31150,
-            "quantity": 5
+            "price": 31050,
+            "quantity": 135
           },
           {
             "level": 2,
-            "price": 31100,
-            "quantity": 41
+            "price": 31000,
+            "quantity": 173
           },
           {
             "level": 3,
-            "price": 31050,
-            "quantity": 131
-          },
-          {
-            "level": 4,
-            "price": 31000,
-            "quantity": 292
-          },
-          {
-            "level": 5,
             "price": 30950,
             "quantity": 655
           },
           {
-            "level": 6,
+            "level": 4,
             "price": 30900,
             "quantity": 286
           },
           {
-            "level": 7,
+            "level": 5,
             "price": 30850,
             "quantity": 368
           },
           {
-            "level": 8,
+            "level": 6,
             "price": 30800,
             "quantity": 452
           },
           {
-            "level": 9,
+            "level": 7,
             "price": 30750,
             "quantity": 321
           },
           {
-            "level": 10,
+            "level": 8,
             "price": 30700,
             "quantity": 153
+          },
+          {
+            "level": 9,
+            "price": 30650,
+            "quantity": 106
+          },
+          {
+            "level": 10,
+            "price": 30600,
+            "quantity": 322
           }
         ],
-        "received_at": "2026-09-04 13:00:30"
+        "received_at": "2026-09-04 13:07:44"
       },
       "change_detection": "compared",
-      "previous_price": 31400,
-      "price_delta": 50,
-      "price_delta_pct": 0.159,
-      "volume_delta": 71,
-      "trading_value_delta": 2211150
+      "previous_price": 31450,
+      "price_delta": -100,
+      "price_delta_pct": -0.318,
+      "volume_delta": 603,
+      "trading_value_delta": 18777850
     },
     {
       "ok": true,
-      "sentinel_version": "SENTINEL BRIDGE v0.2",
+      "sentinel_version": "SENTINEL BRIDGE v0.3",
       "environment": "VTS",
       "code": "122900",
       "name": "아이마켓코리아",
@@ -180,98 +180,98 @@
       "open": 8170,
       "high": 8200,
       "low": 8100,
-      "volume": 19795,
-      "trading_value": 160932460,
-      "received_at": "2026-09-04 13:00:36",
+      "volume": 20853,
+      "trading_value": 169555450,
+      "received_at": "2026-09-04 13:07:48",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
       "orderbook": {
         "best_ask": {
           "level": 1,
-          "price": 8150,
-          "quantity": 247
+          "price": 8160,
+          "quantity": 214
         },
         "best_bid": {
           "level": 1,
           "price": 8130,
-          "quantity": 203
+          "quantity": 35
         },
-        "total_ask_quantity": 5083,
-        "total_bid_quantity": 6770,
-        "bid_ask_ratio": 1.3319,
+        "total_ask_quantity": 5172,
+        "total_bid_quantity": 8546,
+        "bid_ask_ratio": 1.6524,
         "asks": [
           {
             "level": 1,
-            "price": 8150,
-            "quantity": 247
+            "price": 8160,
+            "quantity": 214
           },
           {
             "level": 2,
-            "price": 8160,
-            "quantity": 202
-          },
-          {
-            "level": 3,
             "price": 8170,
             "quantity": 284
           },
           {
-            "level": 4,
+            "level": 3,
             "price": 8180,
             "quantity": 997
           },
           {
-            "level": 5,
+            "level": 4,
             "price": 8190,
             "quantity": 640
           },
           {
-            "level": 6,
+            "level": 5,
             "price": 8200,
             "quantity": 1630
           },
           {
-            "level": 7,
+            "level": 6,
             "price": 8210,
             "quantity": 298
           },
           {
-            "level": 8,
+            "level": 7,
             "price": 8220,
             "quantity": 210
           },
           {
-            "level": 9,
+            "level": 8,
             "price": 8230,
             "quantity": 394
           },
           {
-            "level": 10,
+            "level": 9,
             "price": 8240,
             "quantity": 181
+          },
+          {
+            "level": 10,
+            "price": 8250,
+            "quantity": 324
           }
         ],
         "bids": [
           {
             "level": 1,
             "price": 8130,
-            "quantity": 203
+            "quantity": 35
           },
           {
             "level": 2,
             "price": 8120,
-            "quantity": 31
+            "quantity": 2857
           },
           {
             "level": 3,
             "price": 8110,
-            "quantity": 1665
+            "quantity": 667
           },
           {
             "level": 4,
             "price": 8100,
-            "quantity": 661
+            "quantity": 677
           },
           {
             "level": 5,
@@ -281,7 +281,7 @@
           {
             "level": 6,
             "price": 8080,
-            "quantity": 1508
+            "quantity": 1608
           },
           {
             "level": 7,
@@ -304,62 +304,62 @@
             "quantity": 587
           }
         ],
-        "received_at": "2026-09-04 13:00:42"
+        "received_at": "2026-09-04 13:07:51"
       },
       "change_detection": "compared",
       "previous_price": 8150,
       "price_delta": 0,
       "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "volume_delta": 1058,
+      "trading_value_delta": 8622990
     },
     {
       "ok": true,
-      "sentinel_version": "SENTINEL BRIDGE v0.2",
+      "sentinel_version": "SENTINEL BRIDGE v0.3",
       "environment": "VTS",
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": 5200,
-      "change": 120,
-      "change_rate_pct": 2.36,
+      "price": 5190,
+      "change": 110,
+      "change_rate_pct": 2.17,
       "open": 5190,
       "high": 5230,
       "low": 5050,
-      "volume": 23033,
-      "trading_value": 118097360,
-      "received_at": "2026-09-04 13:00:55",
-      "relay_attempts": 2,
+      "volume": 23157,
+      "trading_value": 118740920,
+      "received_at": "2026-09-04 13:07:54",
+      "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
       "orderbook": {
         "best_ask": {
           "level": 1,
-          "price": 5200,
-          "quantity": 368
+          "price": 5190,
+          "quantity": 98
         },
         "best_bid": {
           "level": 1,
-          "price": 5190,
-          "quantity": 91
+          "price": 5180,
+          "quantity": 159
         },
-        "total_ask_quantity": 3083,
-        "total_bid_quantity": 2509,
-        "bid_ask_ratio": 0.8138,
+        "total_ask_quantity": 2462,
+        "total_bid_quantity": 1845,
+        "bid_ask_ratio": 0.7494,
         "asks": [
           {
             "level": 1,
-            "price": 5200,
-            "quantity": 368
+            "price": 5190,
+            "quantity": 98
           },
           {
             "level": 2,
-            "price": 5210,
-            "quantity": 105
+            "price": 5200,
+            "quantity": 521
           },
           {
             "level": 3,
             "price": 5220,
-            "quantity": 1017
+            "quantity": 250
           },
           {
             "level": 4,
@@ -400,67 +400,67 @@
         "bids": [
           {
             "level": 1,
-            "price": 5190,
-            "quantity": 91
+            "price": 5180,
+            "quantity": 159
           },
           {
             "level": 2,
-            "price": 5180,
-            "quantity": 889
-          },
-          {
-            "level": 3,
             "price": 5160,
             "quantity": 125
           },
           {
-            "level": 4,
+            "level": 3,
             "price": 5100,
             "quantity": 71
           },
           {
-            "level": 5,
+            "level": 4,
             "price": 5090,
             "quantity": 1102
           },
           {
-            "level": 6,
+            "level": 5,
             "price": 5060,
             "quantity": 2
           },
           {
-            "level": 7,
+            "level": 6,
             "price": 5050,
             "quantity": 213
           },
           {
-            "level": 8,
+            "level": 7,
             "price": 5040,
             "quantity": 3
           },
           {
-            "level": 9,
+            "level": 8,
             "price": 5030,
             "quantity": 7
           },
           {
-            "level": 10,
+            "level": 9,
             "price": 5020,
             "quantity": 6
+          },
+          {
+            "level": 10,
+            "price": 5010,
+            "quantity": 157
           }
         ],
-        "received_at": "2026-09-04 13:00:59"
+        "received_at": "2026-09-04 13:07:57"
       },
       "change_detection": "compared",
       "previous_price": 5200,
-      "price_delta": 0,
-      "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "price_delta": -10,
+      "price_delta_pct": -0.192,
+      "volume_delta": 124,
+      "trading_value_delta": 643560
     },
     {
       "ok": true,
-      "sentinel_version": "SENTINEL BRIDGE v0.2",
+      "sentinel_version": "SENTINEL BRIDGE v0.3",
       "environment": "VTS",
       "code": "950210",
       "name": "프레스티지바이오파마",
@@ -472,7 +472,7 @@
       "low": 6230,
       "volume": 28489,
       "trading_value": 179408480,
-      "received_at": "2026-09-04 13:01:03",
+      "received_at": "2026-09-04 13:08:01",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
@@ -480,21 +480,21 @@
         "best_ask": {
           "level": 1,
           "price": 6350,
-          "quantity": 235
+          "quantity": 226
         },
         "best_bid": {
           "level": 1,
           "price": 6340,
           "quantity": 188
         },
-        "total_ask_quantity": 1245,
-        "total_bid_quantity": 1471,
-        "bid_ask_ratio": 1.1815,
+        "total_ask_quantity": 1236,
+        "total_bid_quantity": 1558,
+        "bid_ask_ratio": 1.2605,
         "asks": [
           {
             "level": 1,
             "price": 6350,
-            "quantity": 235
+            "quantity": 226
           },
           {
             "level": 2,
@@ -551,7 +551,7 @@
           {
             "level": 2,
             "price": 6320,
-            "quantity": 34
+            "quantity": 96
           },
           {
             "level": 3,
@@ -561,7 +561,7 @@
           {
             "level": 4,
             "price": 6300,
-            "quantity": 111
+            "quantity": 136
           },
           {
             "level": 5,
@@ -594,7 +594,7 @@
             "quantity": 165
           }
         ],
-        "received_at": "2026-09-04 13:01:09"
+        "received_at": "2026-09-04 13:08:06"
       },
       "change_detection": "compared",
       "previous_price": 6350,
@@ -605,7 +605,7 @@
     },
     {
       "ok": true,
-      "sentinel_version": "SENTINEL BRIDGE v0.2",
+      "sentinel_version": "SENTINEL BRIDGE v0.3",
       "environment": "VTS",
       "code": "200710",
       "name": "에이디테크놀로지",
@@ -615,9 +615,9 @@
       "open": 22800,
       "high": 23400,
       "low": 22800,
-      "volume": 39211,
-      "trading_value": 905146625,
-      "received_at": "2026-09-04 13:01:15",
+      "volume": 39439,
+      "trading_value": 910462225,
+      "received_at": "2026-09-04 13:08:11",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
@@ -625,31 +625,31 @@
         "best_ask": {
           "level": 1,
           "price": 23350,
-          "quantity": 313
+          "quantity": 175
         },
         "best_bid": {
           "level": 1,
-          "price": 23250,
-          "quantity": 476
+          "price": 23300,
+          "quantity": 484
         },
-        "total_ask_quantity": 7905,
-        "total_bid_quantity": 2927,
-        "bid_ask_ratio": 0.3703,
+        "total_ask_quantity": 7987,
+        "total_bid_quantity": 2701,
+        "bid_ask_ratio": 0.3382,
         "asks": [
           {
             "level": 1,
             "price": 23350,
-            "quantity": 313
+            "quantity": 175
           },
           {
             "level": 2,
             "price": 23400,
-            "quantity": 602
+            "quantity": 811
           },
           {
             "level": 3,
             "price": 23450,
-            "quantity": 316
+            "quantity": 326
           },
           {
             "level": 4,
@@ -664,7 +664,7 @@
           {
             "level": 6,
             "price": 23600,
-            "quantity": 579
+            "quantity": 580
           },
           {
             "level": 7,
@@ -690,63 +690,63 @@
         "bids": [
           {
             "level": 1,
-            "price": 23250,
-            "quantity": 476
+            "price": 23300,
+            "quantity": 484
           },
           {
             "level": 2,
-            "price": 23200,
-            "quantity": 255
+            "price": 23250,
+            "quantity": 462
           },
           {
             "level": 3,
+            "price": 23200,
+            "quantity": 200
+          },
+          {
+            "level": 4,
             "price": 23150,
             "quantity": 519
           },
           {
-            "level": 4,
+            "level": 5,
             "price": 23100,
             "quantity": 58
           },
           {
-            "level": 5,
-            "price": 23050,
-            "quantity": 85
-          },
-          {
             "level": 6,
-            "price": 23000,
-            "quantity": 251
+            "price": 23050,
+            "quantity": 95
           },
           {
             "level": 7,
-            "price": 22950,
-            "quantity": 93
+            "price": 23000,
+            "quantity": 291
           },
           {
             "level": 8,
-            "price": 22900,
-            "quantity": 128
+            "price": 22950,
+            "quantity": 98
           },
           {
             "level": 9,
-            "price": 22850,
-            "quantity": 365
+            "price": 22900,
+            "quantity": 129
           },
           {
             "level": 10,
-            "price": 22800,
-            "quantity": 697
+            "price": 22850,
+            "quantity": 365
           }
         ],
-        "received_at": "2026-09-04 13:01:22"
+        "received_at": "2026-09-04 13:08:16"
       },
       "change_detection": "compared",
       "previous_price": 23350,
       "price_delta": 0,
       "price_delta_pct": 0.0,
-      "volume_delta": 44,
-      "trading_value_delta": 1027400
+      "volume_delta": 228,
+      "trading_value_delta": 5315600
     }
   ]
 }
