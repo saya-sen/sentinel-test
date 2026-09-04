@@ -1,18 +1,27 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.4",
-  "relay_sequence": 5,
-  "relay_pushed_at_utc": "2026-09-04T03:02:24+00:00",
-  "relay_epoch_ms": 1788490944699,
+  "relay_sequence": 6,
+  "relay_pushed_at_utc": "2026-09-04T03:03:30+00:00",
+  "relay_epoch_ms": 1788491010975,
   "stock_count": 2,
-  "success_count": 1,
-  "error_count": 1,
+  "success_count": 2,
+  "error_count": 0,
   "stocks": [
     {
-      "ok": false,
+      "ok": true,
+      "sentinel_version": "SENTINEL v0.1",
+      "environment": "VTS",
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "error": "RuntimeError",
-      "message": "HTTP 500: {\n  \"ok\": false,\n  \"error\": \"RuntimeError\",\n  \"message\": \"현재가 조회 실패 HTTP 500: EGW00201 초당 거래건수를 초과하였습니다.\",\n  \"time\": \"2026-09-04 12:02:18\"\n}"
+      "price": 31200,
+      "change": 100,
+      "change_rate_pct": 0.32,
+      "open": 31100,
+      "high": 31800,
+      "low": 30850,
+      "volume": 8939,
+      "trading_value": 278078950,
+      "received_at": "2026-09-04 12:03:27"
     },
     {
       "ok": true,
@@ -26,9 +35,9 @@
       "open": 254000,
       "high": 256000,
       "low": 252500,
-      "volume": 5743227,
-      "trading_value": 1461067114750,
-      "received_at": "2026-09-04 12:02:24"
+      "volume": 5757200,
+      "trading_value": 1464629746000,
+      "received_at": "2026-09-04 12:03:30"
     }
   ]
 }
