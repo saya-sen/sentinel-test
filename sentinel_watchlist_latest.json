@@ -1,19 +1,22 @@
 {
-  "sentinel_version": "SENTINEL MULTI RELAY v0.8",
-  "relay_sequence": 3,
-  "relay_pushed_at_utc": "2026-09-04T03:53:26+00:00",
-  "relay_epoch_ms": 1788494006000,
+  "sentinel_version": "SENTINEL MULTI RELAY v0.9",
+  "relay_sequence": 1,
+  "relay_pushed_at_utc": "2026-09-04T03:55:53+00:00",
+  "relay_epoch_ms": 1788494153421,
   "freshness_status": "fresh",
-  "fresh_until_utc": "2026-09-04T03:55:56+00:00",
+  "fresh_until_utc": "2026-09-04T03:58:23+00:00",
   "stale_after_seconds": 150,
-  "cycle_duration_ms": 21627,
+  "cycle_duration_ms": 36693,
   "collection_status": "healthy",
   "stock_count": 5,
   "success_count": 5,
   "error_count": 0,
   "failed_codes": [],
+  "orderbook_success_count": 5,
+  "orderbook_error_count": 0,
+  "orderbook_failed_codes": [],
   "change_detection": {
-    "compared_with_relay_sequence": 2,
+    "compared_with_relay_sequence": 3,
     "price_move_alert_pct": 1.0,
     "volume_delta_alert": 50000,
     "alert_count": 0,
@@ -32,16 +35,138 @@
       "open": 31100,
       "high": 31800,
       "low": 30850,
-      "volume": 11469,
-      "trading_value": 356831850,
-      "received_at": "2026-09-04 12:53:06",
+      "volume": 11473,
+      "trading_value": 356957050,
+      "received_at": "2026-09-04 12:55:18",
       "relay_attempts": 1,
+      "orderbook_ok": true,
+      "orderbook_attempts": 1,
+      "orderbook": {
+        "best_ask": {
+          "level": 1,
+          "price": 31350,
+          "quantity": 17
+        },
+        "best_bid": {
+          "level": 1,
+          "price": 31150,
+          "quantity": 1
+        },
+        "total_ask_quantity": 1670,
+        "total_bid_quantity": 2738,
+        "bid_ask_ratio": 1.6395,
+        "asks": [
+          {
+            "level": 1,
+            "price": 31350,
+            "quantity": 17
+          },
+          {
+            "level": 2,
+            "price": 31400,
+            "quantity": 150
+          },
+          {
+            "level": 3,
+            "price": 31450,
+            "quantity": 14
+          },
+          {
+            "level": 4,
+            "price": 31500,
+            "quantity": 400
+          },
+          {
+            "level": 5,
+            "price": 31600,
+            "quantity": 36
+          },
+          {
+            "level": 6,
+            "price": 31650,
+            "quantity": 156
+          },
+          {
+            "level": 7,
+            "price": 31700,
+            "quantity": 200
+          },
+          {
+            "level": 8,
+            "price": 31750,
+            "quantity": 97
+          },
+          {
+            "level": 9,
+            "price": 31800,
+            "quantity": 280
+          },
+          {
+            "level": 10,
+            "price": 31850,
+            "quantity": 320
+          }
+        ],
+        "bids": [
+          {
+            "level": 1,
+            "price": 31150,
+            "quantity": 1
+          },
+          {
+            "level": 2,
+            "price": 31050,
+            "quantity": 132
+          },
+          {
+            "level": 3,
+            "price": 31000,
+            "quantity": 215
+          },
+          {
+            "level": 4,
+            "price": 30950,
+            "quantity": 655
+          },
+          {
+            "level": 5,
+            "price": 30900,
+            "quantity": 310
+          },
+          {
+            "level": 6,
+            "price": 30850,
+            "quantity": 368
+          },
+          {
+            "level": 7,
+            "price": 30800,
+            "quantity": 477
+          },
+          {
+            "level": 8,
+            "price": 30750,
+            "quantity": 321
+          },
+          {
+            "level": 9,
+            "price": 30700,
+            "quantity": 153
+          },
+          {
+            "level": 10,
+            "price": 30650,
+            "quantity": 106
+          }
+        ],
+        "received_at": "2026-09-04 12:55:21"
+      },
       "change_detection": "compared",
-      "previous_price": 31350,
-      "price_delta": -50,
-      "price_delta_pct": -0.159,
-      "volume_delta": 61,
-      "trading_value_delta": 1899650
+      "previous_price": 31300,
+      "price_delta": 0,
+      "price_delta_pct": 0.0,
+      "volume_delta": 4,
+      "trading_value_delta": 125200
     },
     {
       "ok": true,
@@ -49,22 +174,144 @@
       "environment": "VTS",
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8160,
-      "change": -10,
-      "change_rate_pct": -0.12,
+      "price": 8130,
+      "change": -40,
+      "change_rate_pct": -0.49,
       "open": 8170,
       "high": 8200,
       "low": 8100,
-      "volume": 19770,
-      "trading_value": 160729190,
-      "received_at": "2026-09-04 12:53:11",
+      "volume": 19794,
+      "trading_value": 160924310,
+      "received_at": "2026-09-04 12:55:24",
       "relay_attempts": 1,
+      "orderbook_ok": true,
+      "orderbook_attempts": 1,
+      "orderbook": {
+        "best_ask": {
+          "level": 1,
+          "price": 8150,
+          "quantity": 248
+        },
+        "best_bid": {
+          "level": 1,
+          "price": 8130,
+          "quantity": 202
+        },
+        "total_ask_quantity": 5216,
+        "total_bid_quantity": 8607,
+        "bid_ask_ratio": 1.6501,
+        "asks": [
+          {
+            "level": 1,
+            "price": 8150,
+            "quantity": 248
+          },
+          {
+            "level": 2,
+            "price": 8160,
+            "quantity": 334
+          },
+          {
+            "level": 3,
+            "price": 8170,
+            "quantity": 284
+          },
+          {
+            "level": 4,
+            "price": 8180,
+            "quantity": 997
+          },
+          {
+            "level": 5,
+            "price": 8190,
+            "quantity": 640
+          },
+          {
+            "level": 6,
+            "price": 8200,
+            "quantity": 1630
+          },
+          {
+            "level": 7,
+            "price": 8210,
+            "quantity": 298
+          },
+          {
+            "level": 8,
+            "price": 8220,
+            "quantity": 210
+          },
+          {
+            "level": 9,
+            "price": 8230,
+            "quantity": 394
+          },
+          {
+            "level": 10,
+            "price": 8240,
+            "quantity": 181
+          }
+        ],
+        "bids": [
+          {
+            "level": 1,
+            "price": 8130,
+            "quantity": 202
+          },
+          {
+            "level": 2,
+            "price": 8120,
+            "quantity": 1850
+          },
+          {
+            "level": 3,
+            "price": 8110,
+            "quantity": 1665
+          },
+          {
+            "level": 4,
+            "price": 8100,
+            "quantity": 661
+          },
+          {
+            "level": 5,
+            "price": 8090,
+            "quantity": 287
+          },
+          {
+            "level": 6,
+            "price": 8080,
+            "quantity": 1508
+          },
+          {
+            "level": 7,
+            "price": 8070,
+            "quantity": 580
+          },
+          {
+            "level": 8,
+            "price": 8060,
+            "quantity": 589
+          },
+          {
+            "level": 9,
+            "price": 8050,
+            "quantity": 678
+          },
+          {
+            "level": 10,
+            "price": 8040,
+            "quantity": 587
+          }
+        ],
+        "received_at": "2026-09-04 12:55:29"
+      },
       "change_detection": "compared",
-      "previous_price": 8130,
-      "price_delta": 30,
-      "price_delta_pct": 0.369,
-      "volume_delta": 1,
-      "trading_value_delta": 8160
+      "previous_price": 8160,
+      "price_delta": -30,
+      "price_delta_pct": -0.368,
+      "volume_delta": 24,
+      "trading_value_delta": 195120
     },
     {
       "ok": true,
@@ -72,22 +319,144 @@
       "environment": "VTS",
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": 5200,
-      "change": 120,
-      "change_rate_pct": 2.36,
+      "price": 5210,
+      "change": 130,
+      "change_rate_pct": 2.56,
       "open": 5190,
       "high": 5230,
       "low": 5050,
-      "volume": 22701,
-      "trading_value": 116369670,
-      "received_at": "2026-09-04 12:53:16",
+      "volume": 22830,
+      "trading_value": 117041760,
+      "received_at": "2026-09-04 12:55:34",
       "relay_attempts": 1,
+      "orderbook_ok": true,
+      "orderbook_attempts": 1,
+      "orderbook": {
+        "best_ask": {
+          "level": 1,
+          "price": 5220,
+          "quantity": 381
+        },
+        "best_bid": {
+          "level": 1,
+          "price": 5200,
+          "quantity": 173
+        },
+        "total_ask_quantity": 2862,
+        "total_bid_quantity": 2709,
+        "bid_ask_ratio": 0.9465,
+        "asks": [
+          {
+            "level": 1,
+            "price": 5220,
+            "quantity": 381
+          },
+          {
+            "level": 2,
+            "price": 5230,
+            "quantity": 799
+          },
+          {
+            "level": 3,
+            "price": 5240,
+            "quantity": 238
+          },
+          {
+            "level": 4,
+            "price": 5250,
+            "quantity": 55
+          },
+          {
+            "level": 5,
+            "price": 5280,
+            "quantity": 39
+          },
+          {
+            "level": 6,
+            "price": 5300,
+            "quantity": 370
+          },
+          {
+            "level": 7,
+            "price": 5340,
+            "quantity": 233
+          },
+          {
+            "level": 8,
+            "price": 5350,
+            "quantity": 63
+          },
+          {
+            "level": 9,
+            "price": 5380,
+            "quantity": 595
+          },
+          {
+            "level": 10,
+            "price": 5390,
+            "quantity": 89
+          }
+        ],
+        "bids": [
+          {
+            "level": 1,
+            "price": 5200,
+            "quantity": 173
+          },
+          {
+            "level": 2,
+            "price": 5190,
+            "quantity": 848
+          },
+          {
+            "level": 3,
+            "price": 5180,
+            "quantity": 116
+          },
+          {
+            "level": 4,
+            "price": 5160,
+            "quantity": 125
+          },
+          {
+            "level": 5,
+            "price": 5100,
+            "quantity": 61
+          },
+          {
+            "level": 6,
+            "price": 5090,
+            "quantity": 1112
+          },
+          {
+            "level": 7,
+            "price": 5070,
+            "quantity": 56
+          },
+          {
+            "level": 8,
+            "price": 5060,
+            "quantity": 2
+          },
+          {
+            "level": 9,
+            "price": 5050,
+            "quantity": 213
+          },
+          {
+            "level": 10,
+            "price": 5040,
+            "quantity": 3
+          }
+        ],
+        "received_at": "2026-09-04 12:55:38"
+      },
       "change_detection": "compared",
       "previous_price": 5200,
-      "price_delta": 0,
-      "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "price_delta": 10,
+      "price_delta_pct": 0.192,
+      "volume_delta": 129,
+      "trading_value_delta": 672090
     },
     {
       "ok": true,
@@ -95,22 +464,144 @@
       "environment": "VTS",
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": 6330,
-      "change": -140,
-      "change_rate_pct": -2.16,
+      "price": 6350,
+      "change": -120,
+      "change_rate_pct": -1.85,
       "open": 6470,
       "high": 6470,
       "low": 6230,
-      "volume": 28148,
-      "trading_value": 177243130,
-      "received_at": "2026-09-04 12:53:21",
+      "volume": 28489,
+      "trading_value": 179408480,
+      "received_at": "2026-09-04 12:55:42",
       "relay_attempts": 1,
+      "orderbook_ok": true,
+      "orderbook_attempts": 1,
+      "orderbook": {
+        "best_ask": {
+          "level": 1,
+          "price": 6350,
+          "quantity": 47
+        },
+        "best_bid": {
+          "level": 1,
+          "price": 6340,
+          "quantity": 67
+        },
+        "total_ask_quantity": 1245,
+        "total_bid_quantity": 1350,
+        "bid_ask_ratio": 1.0843,
+        "asks": [
+          {
+            "level": 1,
+            "price": 6350,
+            "quantity": 47
+          },
+          {
+            "level": 2,
+            "price": 6370,
+            "quantity": 199
+          },
+          {
+            "level": 3,
+            "price": 6380,
+            "quantity": 209
+          },
+          {
+            "level": 4,
+            "price": 6410,
+            "quantity": 20
+          },
+          {
+            "level": 5,
+            "price": 6420,
+            "quantity": 218
+          },
+          {
+            "level": 6,
+            "price": 6430,
+            "quantity": 20
+          },
+          {
+            "level": 7,
+            "price": 6440,
+            "quantity": 20
+          },
+          {
+            "level": 8,
+            "price": 6450,
+            "quantity": 148
+          },
+          {
+            "level": 9,
+            "price": 6470,
+            "quantity": 363
+          },
+          {
+            "level": 10,
+            "price": 6480,
+            "quantity": 1
+          }
+        ],
+        "bids": [
+          {
+            "level": 1,
+            "price": 6340,
+            "quantity": 67
+          },
+          {
+            "level": 2,
+            "price": 6320,
+            "quantity": 34
+          },
+          {
+            "level": 3,
+            "price": 6310,
+            "quantity": 692
+          },
+          {
+            "level": 4,
+            "price": 6300,
+            "quantity": 111
+          },
+          {
+            "level": 5,
+            "price": 6290,
+            "quantity": 1
+          },
+          {
+            "level": 6,
+            "price": 6280,
+            "quantity": 35
+          },
+          {
+            "level": 7,
+            "price": 6270,
+            "quantity": 100
+          },
+          {
+            "level": 8,
+            "price": 6260,
+            "quantity": 5
+          },
+          {
+            "level": 9,
+            "price": 6250,
+            "quantity": 140
+          },
+          {
+            "level": 10,
+            "price": 6240,
+            "quantity": 165
+          }
+        ],
+        "received_at": "2026-09-04 12:55:46"
+      },
       "change_detection": "compared",
       "previous_price": 6330,
-      "price_delta": 0,
-      "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "price_delta": 20,
+      "price_delta_pct": 0.316,
+      "volume_delta": 341,
+      "trading_value_delta": 2165350
     },
     {
       "ok": true,
@@ -124,16 +615,138 @@
       "open": 22800,
       "high": 23400,
       "low": 22800,
-      "volume": 38871,
-      "trading_value": 897209125,
-      "received_at": "2026-09-04 12:53:25",
+      "volume": 38937,
+      "trading_value": 898750225,
+      "received_at": "2026-09-04 12:55:49",
       "relay_attempts": 1,
+      "orderbook_ok": true,
+      "orderbook_attempts": 1,
+      "orderbook": {
+        "best_ask": {
+          "level": 1,
+          "price": 23350,
+          "quantity": 269
+        },
+        "best_bid": {
+          "level": 1,
+          "price": 23250,
+          "quantity": 358
+        },
+        "total_ask_quantity": 7527,
+        "total_bid_quantity": 2820,
+        "bid_ask_ratio": 0.3747,
+        "asks": [
+          {
+            "level": 1,
+            "price": 23350,
+            "quantity": 269
+          },
+          {
+            "level": 2,
+            "price": 23400,
+            "quantity": 603
+          },
+          {
+            "level": 3,
+            "price": 23450,
+            "quantity": 1086
+          },
+          {
+            "level": 4,
+            "price": 23500,
+            "quantity": 611
+          },
+          {
+            "level": 5,
+            "price": 23550,
+            "quantity": 681
+          },
+          {
+            "level": 6,
+            "price": 23600,
+            "quantity": 579
+          },
+          {
+            "level": 7,
+            "price": 23650,
+            "quantity": 563
+          },
+          {
+            "level": 8,
+            "price": 23700,
+            "quantity": 1237
+          },
+          {
+            "level": 9,
+            "price": 23750,
+            "quantity": 532
+          },
+          {
+            "level": 10,
+            "price": 23800,
+            "quantity": 1366
+          }
+        ],
+        "bids": [
+          {
+            "level": 1,
+            "price": 23250,
+            "quantity": 358
+          },
+          {
+            "level": 2,
+            "price": 23200,
+            "quantity": 247
+          },
+          {
+            "level": 3,
+            "price": 23150,
+            "quantity": 519
+          },
+          {
+            "level": 4,
+            "price": 23100,
+            "quantity": 87
+          },
+          {
+            "level": 5,
+            "price": 23050,
+            "quantity": 85
+          },
+          {
+            "level": 6,
+            "price": 23000,
+            "quantity": 251
+          },
+          {
+            "level": 7,
+            "price": 22950,
+            "quantity": 83
+          },
+          {
+            "level": 8,
+            "price": 22900,
+            "quantity": 128
+          },
+          {
+            "level": 9,
+            "price": 22850,
+            "quantity": 365
+          },
+          {
+            "level": 10,
+            "price": 22800,
+            "quantity": 697
+          }
+        ],
+        "received_at": "2026-09-04 12:55:53"
+      },
       "change_detection": "compared",
       "previous_price": 23350,
       "price_delta": 0,
       "price_delta_pct": 0.0,
-      "volume_delta": 48,
-      "trading_value_delta": 1119700
+      "volume_delta": 66,
+      "trading_value_delta": 1541100
     }
   ]
 }
