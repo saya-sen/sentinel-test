@@ -1,12 +1,12 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.11",
-  "relay_sequence": 19,
-  "relay_pushed_at_utc": "2026-09-04T05:09:03+00:00",
-  "relay_epoch_ms": 1788498543254,
+  "relay_sequence": 20,
+  "relay_pushed_at_utc": "2026-09-04T05:11:19+00:00",
+  "relay_epoch_ms": 1788498679082,
   "freshness_status": "fresh",
-  "fresh_until_utc": "2026-09-04T05:11:33+00:00",
+  "fresh_until_utc": "2026-09-04T05:13:49+00:00",
   "stale_after_seconds": 150,
-  "cycle_duration_ms": 66533,
+  "cycle_duration_ms": 74371,
   "collection_status": "healthy",
   "stock_count": 5,
   "success_count": 5,
@@ -19,7 +19,7 @@
   "trades_error_count": 0,
   "trades_failed_codes": [],
   "change_detection": {
-    "compared_with_relay_sequence": 18,
+    "compared_with_relay_sequence": 19,
     "price_move_alert_pct": 1.0,
     "volume_delta_alert": 50000,
     "alert_count": 0,
@@ -32,37 +32,37 @@
       "environment": "VTS",
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 30850,
-      "change": -250,
-      "change_rate_pct": -0.8,
+      "price": 31000,
+      "change": -100,
+      "change_rate_pct": -0.32,
       "open": 31100,
       "high": 31800,
       "low": 30850,
-      "volume": 18732,
-      "trading_value": 581918050,
-      "received_at": "2026-09-04 14:08:09",
-      "relay_attempts": 2,
+      "volume": 18806,
+      "trading_value": 584201250,
+      "received_at": "2026-09-04 14:10:09",
+      "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
       "orderbook": {
         "best_ask": {
           "level": 1,
           "price": 31000,
-          "quantity": 145
+          "quantity": 326
         },
         "best_bid": {
           "level": 1,
-          "price": 30850,
-          "quantity": 50
+          "price": 30900,
+          "quantity": 100
         },
-        "total_ask_quantity": 1267,
-        "total_bid_quantity": 2285,
-        "bid_ask_ratio": 1.8035,
+        "total_ask_quantity": 1448,
+        "total_bid_quantity": 2279,
+        "bid_ask_ratio": 1.5739,
         "asks": [
           {
             "level": 1,
             "price": 31000,
-            "quantity": 145
+            "quantity": 326
           },
           {
             "level": 2,
@@ -113,72 +113,108 @@
         "bids": [
           {
             "level": 1,
-            "price": 30850,
-            "quantity": 50
+            "price": 30900,
+            "quantity": 100
           },
           {
             "level": 2,
-            "price": 30800,
-            "quantity": 517
+            "price": 30850,
+            "quantity": 46
           },
           {
             "level": 3,
-            "price": 30750,
-            "quantity": 323
+            "price": 30800,
+            "quantity": 527
           },
           {
             "level": 4,
+            "price": 30750,
+            "quantity": 324
+          },
+          {
+            "level": 5,
             "price": 30700,
             "quantity": 165
           },
           {
-            "level": 5,
+            "level": 6,
             "price": 30650,
             "quantity": 111
           },
           {
-            "level": 6,
+            "level": 7,
             "price": 30600,
             "quantity": 338
           },
           {
-            "level": 7,
+            "level": 8,
             "price": 30550,
             "quantity": 62
           },
           {
-            "level": 8,
+            "level": 9,
             "price": 30500,
             "quantity": 580
           },
           {
-            "level": 9,
-            "price": 30450,
-            "quantity": 21
-          },
-          {
             "level": 10,
-            "price": 30400,
-            "quantity": 118
+            "price": 30450,
+            "quantity": 26
           }
         ],
-        "received_at": "2026-09-04 14:08:12"
+        "received_at": "2026-09-04 14:10:15"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
-          "trade_time": "140751",
-          "price": 30850,
-          "change": -250,
+          "trade_time": "140950",
+          "price": 31000,
+          "change": -100,
           "change_sign": "5",
-          "change_rate_pct": -0.8,
-          "trade_volume": 46,
-          "trade_strength": 69.03
+          "change_rate_pct": -0.32,
+          "trade_volume": 1,
+          "trade_strength": 68.92
         },
-        "trade_strength": 69.03,
+        "trade_strength": 68.92,
         "recent_trade_count": 20,
         "recent_trades": [
+          {
+            "trade_time": "140950",
+            "price": 31000,
+            "change": -100,
+            "change_sign": "5",
+            "change_rate_pct": -0.32,
+            "trade_volume": 1,
+            "trade_strength": 68.92
+          },
+          {
+            "trade_time": "140922",
+            "price": 31000,
+            "change": -100,
+            "change_sign": "5",
+            "change_rate_pct": -0.32,
+            "trade_volume": 1,
+            "trade_strength": 68.91
+          },
+          {
+            "trade_time": "140830",
+            "price": 30850,
+            "change": -250,
+            "change_sign": "5",
+            "change_rate_pct": -0.8,
+            "trade_volume": 21,
+            "trade_strength": 68.9
+          },
+          {
+            "trade_time": "140830",
+            "price": 30850,
+            "change": -250,
+            "change_sign": "5",
+            "change_rate_pct": -0.8,
+            "trade_volume": 51,
+            "trade_strength": 68.71
+          },
           {
             "trade_time": "140751",
             "price": 30850,
@@ -187,52 +223,16 @@
             "change_rate_pct": -0.8,
             "trade_volume": 46,
             "trade_strength": 69.03
-          },
-          {
-            "trade_time": "140746",
-            "price": 30900,
-            "change": -200,
-            "change_sign": "5",
-            "change_rate_pct": -0.64,
-            "trade_volume": 10,
-            "trade_strength": 69.33
-          },
-          {
-            "trade_time": "140746",
-            "price": 30900,
-            "change": -200,
-            "change_sign": "5",
-            "change_rate_pct": -0.64,
-            "trade_volume": 1,
-            "trade_strength": 69.23
-          },
-          {
-            "trade_time": "140746",
-            "price": 30900,
-            "change": -200,
-            "change_sign": "5",
-            "change_rate_pct": -0.64,
-            "trade_volume": 18,
-            "trade_strength": 69.22
-          },
-          {
-            "trade_time": "140735",
-            "price": 30900,
-            "change": -200,
-            "change_sign": "5",
-            "change_rate_pct": -0.64,
-            "trade_volume": 46,
-            "trade_strength": 69.06
           }
         ],
-        "received_at": "2026-09-04 14:08:16"
+        "received_at": "2026-09-04 14:10:21"
       },
       "change_detection": "compared",
-      "previous_price": 30900,
-      "price_delta": -50,
-      "price_delta_pct": -0.162,
-      "volume_delta": 350,
-      "trading_value_delta": 10808900
+      "previous_price": 30850,
+      "price_delta": 150,
+      "price_delta_pct": 0.486,
+      "volume_delta": 74,
+      "trading_value_delta": 2283200
     },
     {
       "ok": true,
@@ -246,9 +246,9 @@
       "open": 8170,
       "high": 8200,
       "low": 8100,
-      "volume": 26138,
-      "trading_value": 212449030,
-      "received_at": "2026-09-04 14:08:20",
+      "volume": 26143,
+      "trading_value": 212489590,
+      "received_at": "2026-09-04 14:10:26",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
@@ -256,21 +256,21 @@
         "best_ask": {
           "level": 1,
           "price": 8120,
-          "quantity": 879
+          "quantity": 1125
         },
         "best_bid": {
           "level": 1,
           "price": 8110,
-          "quantity": 996
+          "quantity": 992
         },
-        "total_ask_quantity": 5520,
-        "total_bid_quantity": 8693,
-        "bid_ask_ratio": 1.5748,
+        "total_ask_quantity": 5766,
+        "total_bid_quantity": 8947,
+        "bid_ask_ratio": 1.5517,
         "asks": [
           {
             "level": 1,
             "price": 8120,
-            "quantity": 879
+            "quantity": 1125
           },
           {
             "level": 2,
@@ -322,7 +322,7 @@
           {
             "level": 1,
             "price": 8110,
-            "quantity": 996
+            "quantity": 992
           },
           {
             "level": 2,
@@ -332,12 +332,12 @@
           {
             "level": 3,
             "price": 8090,
-            "quantity": 724
+            "quantity": 734
           },
           {
             "level": 4,
             "price": 8080,
-            "quantity": 2114
+            "quantity": 2362
           },
           {
             "level": 5,
@@ -370,23 +370,41 @@
             "quantity": 67
           }
         ],
-        "received_at": "2026-09-04 14:08:25"
+        "received_at": "2026-09-04 14:10:33"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
-          "trade_time": "140712",
+          "trade_time": "141017",
           "price": 8110,
           "change": -60,
           "change_sign": "5",
           "change_rate_pct": -0.73,
-          "trade_volume": 49,
+          "trade_volume": 4,
           "trade_strength": 34.41
         },
         "trade_strength": 34.41,
         "recent_trade_count": 20,
         "recent_trades": [
+          {
+            "trade_time": "141017",
+            "price": 8110,
+            "change": -60,
+            "change_sign": "5",
+            "change_rate_pct": -0.73,
+            "trade_volume": 4,
+            "trade_strength": 34.41
+          },
+          {
+            "trade_time": "140910",
+            "price": 8120,
+            "change": -50,
+            "change_sign": "5",
+            "change_rate_pct": -0.61,
+            "trade_volume": 1,
+            "trade_strength": 34.41
+          },
           {
             "trade_time": "140712",
             "price": 8110,
@@ -413,34 +431,16 @@
             "change_rate_pct": -0.61,
             "trade_volume": 13,
             "trade_strength": 34.45
-          },
-          {
-            "trade_time": "135929",
-            "price": 8120,
-            "change": -50,
-            "change_sign": "5",
-            "change_rate_pct": -0.61,
-            "trade_volume": 1,
-            "trade_strength": 34.38
-          },
-          {
-            "trade_time": "135518",
-            "price": 8110,
-            "change": -60,
-            "change_sign": "5",
-            "change_rate_pct": -0.73,
-            "trade_volume": 100,
-            "trade_strength": 34.38
           }
         ],
-        "received_at": "2026-09-04 14:08:30"
+        "received_at": "2026-09-04 14:10:38"
       },
       "change_detection": "compared",
-      "previous_price": 8120,
-      "price_delta": -10,
-      "price_delta_pct": -0.123,
-      "volume_delta": 49,
-      "trading_value_delta": 397390
+      "previous_price": 8110,
+      "price_delta": 0,
+      "price_delta_pct": 0.0,
+      "volume_delta": 5,
+      "trading_value_delta": 40560
     },
     {
       "ok": true,
@@ -448,42 +448,42 @@
       "environment": "VTS",
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": 5150,
-      "change": 70,
-      "change_rate_pct": 1.38,
+      "price": 5130,
+      "change": 50,
+      "change_rate_pct": 0.98,
       "open": 5190,
       "high": 5230,
       "low": 5050,
-      "volume": 26557,
-      "trading_value": 136177030,
-      "received_at": "2026-09-04 14:08:34",
+      "volume": 26787,
+      "trading_value": 137356930,
+      "received_at": "2026-09-04 14:10:43",
       "relay_attempts": 1,
       "orderbook_ok": true,
-      "orderbook_attempts": 1,
+      "orderbook_attempts": 2,
       "orderbook": {
         "best_ask": {
           "level": 1,
           "price": 5150,
-          "quantity": 378
+          "quantity": 137
         },
         "best_bid": {
           "level": 1,
-          "price": 5130,
-          "quantity": 1390
+          "price": 5140,
+          "quantity": 182
         },
-        "total_ask_quantity": 2348,
-        "total_bid_quantity": 3511,
-        "bid_ask_ratio": 1.4953,
+        "total_ask_quantity": 2113,
+        "total_bid_quantity": 2967,
+        "bid_ask_ratio": 1.4042,
         "asks": [
           {
             "level": 1,
             "price": 5150,
-            "quantity": 378
+            "quantity": 137
           },
           {
             "level": 2,
             "price": 5160,
-            "quantity": 61
+            "quantity": 67
           },
           {
             "level": 3,
@@ -529,72 +529,81 @@
         "bids": [
           {
             "level": 1,
-            "price": 5130,
-            "quantity": 1390
+            "price": 5140,
+            "quantity": 182
           },
           {
             "level": 2,
-            "price": 5120,
-            "quantity": 53
+            "price": 5130,
+            "quantity": 950
           },
           {
             "level": 3,
+            "price": 5120,
+            "quantity": 22
+          },
+          {
+            "level": 4,
             "price": 5110,
             "quantity": 151
           },
           {
-            "level": 4,
+            "level": 5,
             "price": 5060,
             "quantity": 94
           },
           {
-            "level": 5,
+            "level": 6,
             "price": 5050,
             "quantity": 163
           },
           {
-            "level": 6,
+            "level": 7,
             "price": 5040,
             "quantity": 3
           },
           {
-            "level": 7,
+            "level": 8,
             "price": 5030,
             "quantity": 589
           },
           {
-            "level": 8,
+            "level": 9,
             "price": 5020,
             "quantity": 654
           },
           {
-            "level": 9,
+            "level": 10,
             "price": 5010,
             "quantity": 159
-          },
-          {
-            "level": 10,
-            "price": 5000,
-            "quantity": 255
           }
         ],
-        "received_at": "2026-09-04 14:08:36"
+        "received_at": "2026-09-04 14:10:54"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
-          "trade_time": "140022",
-          "price": 5150,
-          "change": 70,
+          "trade_time": "141000",
+          "price": 5130,
+          "change": 50,
           "change_sign": "2",
-          "change_rate_pct": 1.38,
-          "trade_volume": 6,
-          "trade_strength": 173.8
+          "change_rate_pct": 0.98,
+          "trade_volume": 230,
+          "trade_strength": 169.78
         },
-        "trade_strength": 173.8,
+        "trade_strength": 169.78,
         "recent_trade_count": 20,
         "recent_trades": [
+          {
+            "trade_time": "141000",
+            "price": 5130,
+            "change": 50,
+            "change_sign": "2",
+            "change_rate_pct": 0.98,
+            "trade_volume": 230,
+            "trade_strength": 169.78
+          },
           {
             "trade_time": "140022",
             "price": 5150,
@@ -630,25 +639,16 @@
             "change_rate_pct": 1.38,
             "trade_volume": 5,
             "trade_strength": 173.56
-          },
-          {
-            "trade_time": "140018",
-            "price": 5150,
-            "change": 70,
-            "change_sign": "2",
-            "change_rate_pct": 1.38,
-            "trade_volume": 104,
-            "trade_strength": 173.51
           }
         ],
-        "received_at": "2026-09-04 14:08:41"
+        "received_at": "2026-09-04 14:10:58"
       },
       "change_detection": "compared",
       "previous_price": 5150,
-      "price_delta": 0,
-      "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "price_delta": -20,
+      "price_delta_pct": -0.388,
+      "volume_delta": 230,
+      "trading_value_delta": 1179900
     },
     {
       "ok": true,
@@ -664,7 +664,7 @@
       "low": 6230,
       "volume": 29950,
       "trading_value": 188686590,
-      "received_at": "2026-09-04 14:08:44",
+      "received_at": "2026-09-04 14:11:01",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
@@ -786,7 +786,7 @@
             "quantity": 100
           }
         ],
-        "received_at": "2026-09-04 14:08:47"
+        "received_at": "2026-09-04 14:11:05"
       },
       "trades_ok": true,
       "trades_attempts": 1,
@@ -849,14 +849,14 @@
             "trade_strength": 85.66
           }
         ],
-        "received_at": "2026-09-04 14:08:51"
+        "received_at": "2026-09-04 14:11:08"
       },
       "change_detection": "compared",
       "previous_price": 6380,
       "price_delta": 0,
       "price_delta_pct": 0.0,
-      "volume_delta": 6,
-      "trading_value_delta": 38280
+      "volume_delta": 0,
+      "trading_value_delta": 0
     },
     {
       "ok": true,
@@ -870,9 +870,9 @@
       "open": 22800,
       "high": 23500,
       "low": 22800,
-      "volume": 46228,
-      "trading_value": 1069370800,
-      "received_at": "2026-09-04 14:08:55",
+      "volume": 46335,
+      "trading_value": 1071881950,
+      "received_at": "2026-09-04 14:11:11",
       "relay_attempts": 1,
       "orderbook_ok": true,
       "orderbook_attempts": 1,
@@ -880,36 +880,36 @@
         "best_ask": {
           "level": 1,
           "price": 23500,
-          "quantity": 802
+          "quantity": 872
         },
         "best_bid": {
           "level": 1,
           "price": 23450,
-          "quantity": 209
+          "quantity": 150
         },
-        "total_ask_quantity": 7795,
-        "total_bid_quantity": 2654,
-        "bid_ask_ratio": 0.3405,
+        "total_ask_quantity": 7874,
+        "total_bid_quantity": 2520,
+        "bid_ask_ratio": 0.32,
         "asks": [
           {
             "level": 1,
             "price": 23500,
-            "quantity": 802
+            "quantity": 872
           },
           {
             "level": 2,
             "price": 23550,
-            "quantity": 911
+            "quantity": 918
           },
           {
             "level": 3,
             "price": 23600,
-            "quantity": 632
+            "quantity": 613
           },
           {
             "level": 4,
             "price": 23650,
-            "quantity": 565
+            "quantity": 572
           },
           {
             "level": 5,
@@ -939,24 +939,24 @@
           {
             "level": 10,
             "price": 23950,
-            "quantity": 523
+            "quantity": 537
           }
         ],
         "bids": [
           {
             "level": 1,
             "price": 23450,
-            "quantity": 209
+            "quantity": 150
           },
           {
             "level": 2,
             "price": 23400,
-            "quantity": 298
+            "quantity": 198
           },
           {
             "level": 3,
             "price": 23350,
-            "quantity": 156
+            "quantity": 151
           },
           {
             "level": 4,
@@ -991,80 +991,80 @@
           {
             "level": 10,
             "price": 23000,
-            "quantity": 296
+            "quantity": 326
           }
         ],
-        "received_at": "2026-09-04 14:08:58"
+        "received_at": "2026-09-04 14:11:15"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
-          "trade_time": "140605",
-          "price": 23450,
-          "change": 950,
+          "trade_time": "141111",
+          "price": 23500,
+          "change": 1000,
           "change_sign": "2",
-          "change_rate_pct": 4.22,
-          "trade_volume": 32,
-          "trade_strength": 210.02
+          "change_rate_pct": 4.44,
+          "trade_volume": 2,
+          "trade_strength": 209.36
         },
-        "trade_strength": 210.02,
+        "trade_strength": 209.36,
         "recent_trade_count": 20,
         "recent_trades": [
           {
-            "trade_time": "140605",
+            "trade_time": "141111",
+            "price": 23500,
+            "change": 1000,
+            "change_sign": "2",
+            "change_rate_pct": 4.44,
+            "trade_volume": 2,
+            "trade_strength": 209.36
+          },
+          {
+            "trade_time": "141106",
             "price": 23450,
             "change": 950,
             "change_sign": "2",
             "change_rate_pct": 4.22,
-            "trade_volume": 32,
-            "trade_strength": 210.02
+            "trade_volume": 1,
+            "trade_strength": 209.34
           },
           {
-            "trade_time": "140543",
+            "trade_time": "141100",
             "price": 23450,
             "change": 950,
             "change_sign": "2",
             "change_rate_pct": 4.22,
-            "trade_volume": 7,
-            "trade_strength": 209.8
+            "trade_volume": 2,
+            "trade_strength": 209.36
           },
           {
-            "trade_time": "140536",
+            "trade_time": "141053",
             "price": 23450,
             "change": 950,
             "change_sign": "2",
             "change_rate_pct": 4.22,
-            "trade_volume": 24,
-            "trade_strength": 209.75
+            "trade_volume": 10,
+            "trade_strength": 209.38
           },
           {
-            "trade_time": "140517",
+            "trade_time": "141043",
             "price": 23450,
             "change": 950,
             "change_sign": "2",
             "change_rate_pct": 4.22,
-            "trade_volume": 4,
-            "trade_strength": 209.59
-          },
-          {
-            "trade_time": "140500",
-            "price": 23400,
-            "change": 900,
-            "change_sign": "2",
-            "change_rate_pct": 4.0,
-            "trade_volume": 9,
-            "trade_strength": 209.57
+            "trade_volume": 50,
+            "trade_strength": 209.52
           }
         ],
-        "received_at": "2026-09-04 14:09:02"
+        "received_at": "2026-09-04 14:11:18"
       },
       "change_detection": "compared",
       "previous_price": 23450,
       "price_delta": 0,
       "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "volume_delta": 107,
+      "trading_value_delta": 2511150
     }
   ]
 }
