@@ -1,28 +1,35 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 70,
-  "generated_at_utc": "2026-09-07T06:06:04+00:00",
+  "relay_sequence": 71,
+  "generated_at_utc": "2026-09-07T06:07:36+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-07T15:06:04+09:00",
+    "as_of_kst": "2026-09-07T15:07:36+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 1종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
+  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 1건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
-    "normal_count": 4,
-    "watch_count": 1,
+    "normal_count": 3,
+    "watch_count": 2,
     "strong_count": 0,
-    "new_or_changed_count": 0,
+    "new_or_changed_count": 1,
     "cleared_or_changed_count": 0,
     "data_incomplete_count": 0
   },
   "watch": [
+    {
+      "code": "122900",
+      "name": "아이마켓코리아",
+      "flags": [
+        "upper_wick_40pct"
+      ]
+    },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
@@ -32,45 +39,66 @@
     }
   ],
   "strong": [],
-  "transitions": [],
+  "transitions": [
+    {
+      "code": "122900",
+      "name": "아이마켓코리아",
+      "status": "new",
+      "new_flags": [
+        "upper_wick_40pct"
+      ],
+      "cleared_flags": [],
+      "active_flags": [
+        "upper_wick_40pct"
+      ],
+      "price": 8140,
+      "drop_from_high_pct": 0.732,
+      "upper_wick_pct": 60.0,
+      "day_change_rate_pct": 0.37
+    }
+  ],
   "data_incomplete_codes": [],
   "stocks": [
     {
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 31150,
-      "change_rate_pct": 0.32,
+      "price": 31100,
+      "change_rate_pct": 0.16,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.32,
-      "upper_wick_pct": 13.333,
+      "drop_from_high_pct": 0.48,
+      "upper_wick_pct": 20.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:05:37+00:00",
-      "source_age_seconds": 27.0,
+      "latest_source_received_at_utc": "2026-09-07T06:07:05+00:00",
+      "source_age_seconds": 31.0,
       "data_state": "live"
     },
     {
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8170,
-      "change_rate_pct": 0.74,
-      "risk_level": "normal",
-      "transition_status": "normal",
-      "flags": [],
-      "new_flags": [],
+      "price": 8140,
+      "change_rate_pct": 0.37,
+      "risk_level": "watch",
+      "transition_status": "new",
+      "flags": [
+        "upper_wick_40pct"
+      ],
+      "new_flags": [
+        "upper_wick_40pct"
+      ],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.366,
-      "upper_wick_pct": 30.0,
+      "drop_from_high_pct": 0.732,
+      "upper_wick_pct": 60.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:04:55+00:00",
-      "source_age_seconds": 69.0,
+      "latest_source_received_at_utc": "2026-09-07T06:07:09+00:00",
+      "source_age_seconds": 27.0,
       "data_state": "live"
     },
     {
@@ -88,8 +116,8 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:05:39+00:00",
-      "source_age_seconds": 25.0,
+      "latest_source_received_at_utc": "2026-09-07T06:07:20+00:00",
+      "source_age_seconds": 16.0,
       "data_state": "live"
     },
     {
@@ -109,27 +137,27 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:05:32+00:00",
-      "source_age_seconds": 32.0,
+      "latest_source_received_at_utc": "2026-09-07T06:07:26+00:00",
+      "source_age_seconds": 10.0,
       "data_state": "live"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": 24500,
-      "change_rate_pct": 5.15,
+      "price": 24400,
+      "change_rate_pct": 4.72,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.204,
-      "upper_wick_pct": 5.556,
+      "drop_from_high_pct": 0.611,
+      "upper_wick_pct": 16.667,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:05:49+00:00",
-      "source_age_seconds": 15.0,
+      "latest_source_received_at_utc": "2026-09-07T06:07:31+00:00",
+      "source_age_seconds": 5.0,
       "data_state": "live"
     }
   ],
