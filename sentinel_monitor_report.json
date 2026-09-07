@@ -1,9 +1,16 @@
 {
-  "sentinel_version": "SENTINEL MULTI RELAY v0.16 / MONITOR REPORT",
+  "sentinel_version": "SENTINEL MULTI RELAY v0.17 / MARKET SESSION",
   "report_type": "observation_only",
-  "relay_sequence": 10,
-  "generated_at_utc": "2026-09-07T04:11:50+00:00",
+  "relay_sequence": 1,
+  "generated_at_utc": "2026-09-07T04:13:46+00:00",
   "collection_status": "healthy",
+  "market_session": {
+    "code": "regular_hours_schedule",
+    "label_ko": "평일 정규장 시간표 구간",
+    "as_of_kst": "2026-09-07T13:13:46+09:00",
+    "expected_realtime": true,
+    "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
+  },
   "attention_required": true,
   "summary_ko": "관찰 1종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
   "counts": {
@@ -42,7 +49,10 @@
       "upper_wick_pct": 26.667,
       "price_ok": true,
       "orderbook_ok": true,
-      "trades_ok": true
+      "trades_ok": true,
+      "latest_source_received_at_utc": "2026-09-07T04:12:53+00:00",
+      "source_age_seconds": 53.0,
+      "data_state": "live"
     },
     {
       "code": "122900",
@@ -58,7 +68,10 @@
       "upper_wick_pct": 10.0,
       "price_ok": true,
       "orderbook_ok": true,
-      "trades_ok": true
+      "trades_ok": true,
+      "latest_source_received_at_utc": "2026-09-07T04:13:18+00:00",
+      "source_age_seconds": 28.0,
+      "data_state": "live"
     },
     {
       "code": "388870",
@@ -74,7 +87,10 @@
       "upper_wick_pct": 0.0,
       "price_ok": true,
       "orderbook_ok": true,
-      "trades_ok": true
+      "trades_ok": true,
+      "latest_source_received_at_utc": "2026-09-07T04:13:15+00:00",
+      "source_age_seconds": 31.0,
+      "data_state": "live"
     },
     {
       "code": "950210",
@@ -82,7 +98,7 @@
       "price": 6330,
       "change_rate_pct": -2.62,
       "risk_level": "watch",
-      "transition_status": "ongoing",
+      "transition_status": "baseline_active",
       "flags": [
         "drop_from_high_3pct"
       ],
@@ -92,23 +108,29 @@
       "upper_wick_pct": 29.63,
       "price_ok": true,
       "orderbook_ok": true,
-      "trades_ok": true
+      "trades_ok": true,
+      "latest_source_received_at_utc": "2026-09-07T04:13:38+00:00",
+      "source_age_seconds": 8.0,
+      "data_state": "live"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": 24100,
-      "change_rate_pct": 3.43,
+      "price": 24050,
+      "change_rate_pct": 3.22,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.619,
-      "upper_wick_pct": 25.0,
+      "drop_from_high_pct": 0.825,
+      "upper_wick_pct": 33.333,
       "price_ok": true,
       "orderbook_ok": true,
-      "trades_ok": true
+      "trades_ok": true,
+      "latest_source_received_at_utc": "2026-09-07T04:13:31+00:00",
+      "source_age_seconds": 15.0,
+      "data_state": "live"
     }
   ],
   "notice": "관찰·기록 전용이며 주문 또는 매매 실행과 연결되지 않음"
