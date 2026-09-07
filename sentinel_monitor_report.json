@@ -2,153 +2,131 @@
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
   "relay_sequence": 1,
-  "generated_at_utc": "2026-09-07T06:56:14+00:00",
-  "collection_status": "healthy",
+  "generated_at_utc": "2026-09-07T08:15:07+00:00",
+  "collection_status": "degraded",
   "market_session": {
     "code": "closed_outside_regular_hours",
     "label_ko": "정규장 외 시간",
-    "as_of_kst": "2026-09-07T15:56:14+09:00",
+    "as_of_kst": "2026-09-07T17:15:07+09:00",
     "expected_realtime": false,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
-  "attention_required": true,
-  "summary_ko": "관찰 3종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
+  "attention_required": false,
+  "summary_ko": "관찰 0종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
-    "normal_count": 2,
-    "watch_count": 3,
+    "normal_count": 0,
+    "watch_count": 0,
     "strong_count": 0,
     "new_or_changed_count": 0,
     "cleared_or_changed_count": 0,
-    "data_incomplete_count": 0
+    "data_incomplete_count": 5
   },
-  "watch": [
-    {
-      "code": "122900",
-      "name": "아이마켓코리아",
-      "flags": [
-        "upper_wick_40pct"
-      ]
-    },
-    {
-      "code": "388870",
-      "name": "파로스아이바이오",
-      "flags": [
-        "upper_wick_40pct"
-      ]
-    },
-    {
-      "code": "950210",
-      "name": "프레스티지바이오파마",
-      "flags": [
-        "drop_from_high_3pct"
-      ]
-    }
-  ],
+  "watch": [],
   "strong": [],
   "transitions": [],
-  "data_incomplete_codes": [],
+  "data_incomplete_codes": [
+    "389650",
+    "122900",
+    "388870",
+    "950210",
+    "200710"
+  ],
   "stocks": [
     {
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 31000,
-      "change_rate_pct": -0.16,
-      "risk_level": "normal",
-      "transition_status": "normal",
+      "price": null,
+      "change_rate_pct": null,
+      "risk_level": "unknown",
+      "transition_status": "unavailable",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.8,
-      "upper_wick_pct": 26.667,
-      "price_ok": true,
-      "orderbook_ok": true,
+      "drop_from_high_pct": null,
+      "upper_wick_pct": null,
+      "price_ok": false,
+      "orderbook_ok": false,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:13:15+00:00",
-      "source_age_seconds": 2579.0,
-      "data_state": "market_closed_snapshot"
+      "latest_source_received_at_utc": null,
+      "source_age_seconds": null,
+      "data_state": "no_data"
     },
     {
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8150,
-      "change_rate_pct": 0.49,
-      "risk_level": "watch",
-      "transition_status": "ongoing",
-      "flags": [
-        "upper_wick_40pct"
-      ],
+      "price": null,
+      "change_rate_pct": null,
+      "risk_level": "unknown",
+      "transition_status": "unavailable",
+      "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.61,
-      "upper_wick_pct": 50.0,
-      "price_ok": true,
-      "orderbook_ok": true,
+      "drop_from_high_pct": null,
+      "upper_wick_pct": null,
+      "price_ok": false,
+      "orderbook_ok": false,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:13:27+00:00",
-      "source_age_seconds": 2567.0,
-      "data_state": "market_closed_snapshot"
+      "latest_source_received_at_utc": null,
+      "source_age_seconds": null,
+      "data_state": "no_data"
     },
     {
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": 5210,
-      "change_rate_pct": 0.97,
-      "risk_level": "watch",
-      "transition_status": "ongoing",
-      "flags": [
-        "upper_wick_40pct"
-      ],
+      "price": null,
+      "change_rate_pct": null,
+      "risk_level": "unknown",
+      "transition_status": "unavailable",
+      "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 1.698,
-      "upper_wick_pct": 40.909,
-      "price_ok": true,
-      "orderbook_ok": true,
+      "drop_from_high_pct": null,
+      "upper_wick_pct": null,
+      "price_ok": false,
+      "orderbook_ok": false,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:12:52+00:00",
-      "source_age_seconds": 2602.0,
-      "data_state": "market_closed_snapshot"
+      "latest_source_received_at_utc": null,
+      "source_age_seconds": null,
+      "data_state": "no_data"
     },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": 6360,
-      "change_rate_pct": -2.15,
-      "risk_level": "watch",
-      "transition_status": "ongoing",
-      "flags": [
-        "drop_from_high_3pct"
-      ],
+      "price": null,
+      "change_rate_pct": null,
+      "risk_level": "unknown",
+      "transition_status": "unavailable",
+      "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 3.196,
-      "upper_wick_pct": 25.0,
-      "price_ok": true,
-      "orderbook_ok": true,
+      "drop_from_high_pct": null,
+      "upper_wick_pct": null,
+      "price_ok": false,
+      "orderbook_ok": false,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:13:03+00:00",
-      "source_age_seconds": 2591.0,
-      "data_state": "market_closed_snapshot"
+      "latest_source_received_at_utc": null,
+      "source_age_seconds": null,
+      "data_state": "no_data"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": 24450,
-      "change_rate_pct": 4.94,
-      "risk_level": "normal",
-      "transition_status": "normal",
+      "price": null,
+      "change_rate_pct": null,
+      "risk_level": "unknown",
+      "transition_status": "unavailable",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.407,
-      "upper_wick_pct": 11.111,
-      "price_ok": true,
-      "orderbook_ok": true,
+      "drop_from_high_pct": null,
+      "upper_wick_pct": null,
+      "price_ok": false,
+      "orderbook_ok": false,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-07T06:12:58+00:00",
-      "source_age_seconds": 2596.0,
-      "data_state": "market_closed_snapshot"
+      "latest_source_received_at_utc": null,
+      "source_age_seconds": null,
+      "data_state": "no_data"
     }
   ],
   "notice": "관찰·기록 전용이며 주문 또는 매매 실행과 연결되지 않음"
