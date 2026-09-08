@@ -1,26 +1,26 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 4,
-  "generated_at_utc": "2026-09-08T00:30:36+00:00",
+  "relay_sequence": 5,
+  "generated_at_utc": "2026-09-08T00:32:08+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-08T09:30:36+09:00",
+    "as_of_kst": "2026-09-08T09:32:08+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
+  "summary_ko": "관찰 3종목, 강한 위험 0종목, 신규·변경 1건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
     "normal_count": 2,
-    "watch_count": 2,
+    "watch_count": 3,
     "strong_count": 0,
-    "new_or_changed_count": 0,
+    "new_or_changed_count": 1,
     "cleared_or_changed_count": 0,
-    "data_incomplete_count": 1
+    "data_incomplete_count": 0
   },
   "watch": [
     {
@@ -37,19 +37,41 @@
       "flags": [
         "upper_wick_40pct"
       ]
+    },
+    {
+      "code": "388870",
+      "name": "파로스아이바이오",
+      "flags": [
+        "drop_from_high_3pct"
+      ]
     }
   ],
   "strong": [],
-  "transitions": [],
-  "data_incomplete_codes": [
-    "388870"
+  "transitions": [
+    {
+      "code": "388870",
+      "name": "파로스아이바이오",
+      "status": "new",
+      "new_flags": [
+        "drop_from_high_3pct"
+      ],
+      "cleared_flags": [],
+      "active_flags": [
+        "drop_from_high_3pct"
+      ],
+      "price": 5240,
+      "drop_from_high_pct": 4.727,
+      "upper_wick_pct": 0.0,
+      "day_change_rate_pct": -0.95
+    }
   ],
+  "data_incomplete_codes": [],
   "stocks": [
     {
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 30150,
-      "change_rate_pct": -2.9,
+      "price": 30250,
+      "change_rate_pct": -2.58,
       "risk_level": "watch",
       "transition_status": "ongoing",
       "flags": [
@@ -58,13 +80,13 @@
       ],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 5.189,
+      "drop_from_high_pct": 4.874,
       "upper_wick_pct": 54.286,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:29:49+00:00",
-      "source_age_seconds": 47.0,
+      "latest_source_received_at_utc": "2026-09-08T00:31:39+00:00",
+      "source_age_seconds": 29.0,
       "data_state": "live"
     },
     {
@@ -84,65 +106,69 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:29:46+00:00",
-      "source_age_seconds": 50.0,
+      "latest_source_received_at_utc": "2026-09-08T00:31:31+00:00",
+      "source_age_seconds": 37.0,
       "data_state": "live"
     },
     {
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": null,
-      "change_rate_pct": null,
-      "risk_level": "unknown",
-      "transition_status": "unavailable",
-      "flags": [],
-      "new_flags": [],
+      "price": 5240,
+      "change_rate_pct": -0.95,
+      "risk_level": "watch",
+      "transition_status": "new",
+      "flags": [
+        "drop_from_high_3pct"
+      ],
+      "new_flags": [
+        "drop_from_high_3pct"
+      ],
       "cleared_flags": [],
-      "drop_from_high_pct": null,
-      "upper_wick_pct": null,
-      "price_ok": false,
+      "drop_from_high_pct": 4.727,
+      "upper_wick_pct": 0.0,
+      "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:27:35+00:00",
-      "source_age_seconds": 181.0,
-      "data_state": "delayed_warning"
+      "latest_source_received_at_utc": "2026-09-08T00:31:51+00:00",
+      "source_age_seconds": 17.0,
+      "data_state": "live"
     },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": 6350,
-      "change_rate_pct": -1.55,
+      "price": 6370,
+      "change_rate_pct": -1.24,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 1.703,
+      "drop_from_high_pct": 1.393,
       "upper_wick_pct": 8.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:30:14+00:00",
-      "source_age_seconds": 22.0,
+      "latest_source_received_at_utc": "2026-09-08T00:31:55+00:00",
+      "source_age_seconds": 13.0,
       "data_state": "live"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": 25250,
-      "change_rate_pct": 3.06,
+      "price": 25150,
+      "change_rate_pct": 2.65,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.0,
-      "upper_wick_pct": 0.0,
+      "drop_from_high_pct": 0.396,
+      "upper_wick_pct": 10.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:30:35+00:00",
-      "source_age_seconds": 1.0,
+      "latest_source_received_at_utc": "2026-09-08T00:32:05+00:00",
+      "source_age_seconds": 3.0,
       "data_state": "live"
     }
   ],
