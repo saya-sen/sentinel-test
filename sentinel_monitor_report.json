@@ -1,25 +1,25 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 63,
-  "generated_at_utc": "2026-09-08T02:01:33+00:00",
+  "relay_sequence": 64,
+  "generated_at_utc": "2026-09-08T02:03:04+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-08T11:01:33+09:00",
+    "as_of_kst": "2026-09-08T11:03:04+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 4종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
+  "summary_ko": "관찰 3종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 2건",
   "counts": {
     "stock_count": 5,
-    "normal_count": 1,
-    "watch_count": 4,
+    "normal_count": 2,
+    "watch_count": 3,
     "strong_count": 0,
     "new_or_changed_count": 0,
-    "cleared_or_changed_count": 0,
+    "cleared_or_changed_count": 2,
     "data_incomplete_count": 0
   },
   "watch": [
@@ -39,23 +39,46 @@
       ]
     },
     {
-      "code": "388870",
-      "name": "파로스아이바이오",
-      "flags": [
-        "drop_from_high_3pct"
-      ]
-    },
-    {
       "code": "950210",
       "name": "프레스티지바이오파마",
       "flags": [
-        "drop_from_high_3pct",
-        "upper_wick_40pct"
+        "drop_from_high_3pct"
       ]
     }
   ],
   "strong": [],
-  "transitions": [],
+  "transitions": [
+    {
+      "code": "388870",
+      "name": "파로스아이바이오",
+      "status": "cleared",
+      "new_flags": [],
+      "cleared_flags": [
+        "drop_from_high_3pct"
+      ],
+      "active_flags": [],
+      "price": 5360,
+      "drop_from_high_pct": 2.545,
+      "upper_wick_pct": 0.0,
+      "day_change_rate_pct": 1.32
+    },
+    {
+      "code": "950210",
+      "name": "프레스티지바이오파마",
+      "status": "cleared",
+      "new_flags": [],
+      "cleared_flags": [
+        "upper_wick_40pct"
+      ],
+      "active_flags": [
+        "drop_from_high_3pct"
+      ],
+      "price": 6240,
+      "drop_from_high_pct": 4.733,
+      "upper_wick_pct": 31.25,
+      "day_change_rate_pct": -3.26
+    }
+  ],
   "data_incomplete_codes": [],
   "stocks": [
     {
@@ -76,8 +99,8 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T02:00:47+00:00",
-      "source_age_seconds": 46.0,
+      "latest_source_received_at_utc": "2026-09-08T02:02:29+00:00",
+      "source_age_seconds": 35.0,
       "data_state": "live"
     },
     {
@@ -97,51 +120,52 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T02:01:14+00:00",
-      "source_age_seconds": 19.0,
+      "latest_source_received_at_utc": "2026-09-08T02:02:33+00:00",
+      "source_age_seconds": 31.0,
       "data_state": "live"
     },
     {
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": 5290,
-      "change_rate_pct": 0.0,
-      "risk_level": "watch",
-      "transition_status": "ongoing",
-      "flags": [
+      "price": 5360,
+      "change_rate_pct": 1.32,
+      "risk_level": "normal",
+      "transition_status": "cleared",
+      "flags": [],
+      "new_flags": [],
+      "cleared_flags": [
         "drop_from_high_3pct"
       ],
-      "new_flags": [],
-      "cleared_flags": [],
-      "drop_from_high_pct": 3.818,
+      "drop_from_high_pct": 2.545,
       "upper_wick_pct": 0.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T02:00:34+00:00",
-      "source_age_seconds": 59.0,
+      "latest_source_received_at_utc": "2026-09-08T02:02:49+00:00",
+      "source_age_seconds": 15.0,
       "data_state": "live"
     },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": 6300,
-      "change_rate_pct": -2.33,
+      "price": 6240,
+      "change_rate_pct": -3.26,
       "risk_level": "watch",
-      "transition_status": "ongoing",
+      "transition_status": "cleared",
       "flags": [
-        "drop_from_high_3pct",
-        "upper_wick_40pct"
+        "drop_from_high_3pct"
       ],
       "new_flags": [],
-      "cleared_flags": [],
-      "drop_from_high_pct": 3.817,
-      "upper_wick_pct": 40.0,
+      "cleared_flags": [
+        "upper_wick_40pct"
+      ],
+      "drop_from_high_pct": 4.733,
+      "upper_wick_pct": 31.25,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T02:01:19+00:00",
-      "source_age_seconds": 14.0,
+      "latest_source_received_at_utc": "2026-09-08T02:02:54+00:00",
+      "source_age_seconds": 10.0,
       "data_state": "live"
     },
     {
@@ -159,8 +183,8 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T02:01:12+00:00",
-      "source_age_seconds": 21.0,
+      "latest_source_received_at_utc": "2026-09-08T02:03:01+00:00",
+      "source_age_seconds": 3.0,
       "data_state": "live"
     }
   ],
