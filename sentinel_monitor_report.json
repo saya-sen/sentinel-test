@@ -1,24 +1,24 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 2,
-  "generated_at_utc": "2026-09-08T00:27:11+00:00",
+  "relay_sequence": 3,
+  "generated_at_utc": "2026-09-08T00:28:53+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-08T09:27:11+09:00",
+    "as_of_kst": "2026-09-08T09:28:53+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 1건, 해제·변경 0건",
+  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
     "normal_count": 2,
     "watch_count": 2,
     "strong_count": 0,
-    "new_or_changed_count": 1,
+    "new_or_changed_count": 0,
     "cleared_or_changed_count": 0,
     "data_incomplete_count": 1
   },
@@ -40,24 +40,7 @@
     }
   ],
   "strong": [],
-  "transitions": [
-    {
-      "code": "122900",
-      "name": "아이마켓코리아",
-      "status": "new",
-      "new_flags": [
-        "upper_wick_40pct"
-      ],
-      "cleared_flags": [],
-      "active_flags": [
-        "upper_wick_40pct"
-      ],
-      "price": 8190,
-      "drop_from_high_pct": 0.365,
-      "upper_wick_pct": 60.0,
-      "day_change_rate_pct": 0.24
-    }
-  ],
+  "transitions": [],
   "data_incomplete_codes": [
     "388870"
   ],
@@ -80,31 +63,29 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:26:34+00:00",
-      "source_age_seconds": 37.0,
+      "latest_source_received_at_utc": "2026-09-08T00:28:17+00:00",
+      "source_age_seconds": 36.0,
       "data_state": "live"
     },
     {
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8190,
-      "change_rate_pct": 0.24,
+      "price": 8170,
+      "change_rate_pct": 0.0,
       "risk_level": "watch",
-      "transition_status": "new",
+      "transition_status": "ongoing",
       "flags": [
         "upper_wick_40pct"
       ],
-      "new_flags": [
-        "upper_wick_40pct"
-      ],
+      "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.365,
-      "upper_wick_pct": 60.0,
+      "drop_from_high_pct": 0.608,
+      "upper_wick_pct": 100.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:26:34+00:00",
-      "source_age_seconds": 37.0,
+      "latest_source_received_at_utc": "2026-09-08T00:28:18+00:00",
+      "source_age_seconds": 35.0,
       "data_state": "live"
     },
     {
@@ -122,46 +103,46 @@
       "price_ok": false,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:26:29+00:00",
-      "source_age_seconds": 42.0,
+      "latest_source_received_at_utc": "2026-09-08T00:27:35+00:00",
+      "source_age_seconds": 78.0,
       "data_state": "live"
     },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": 6350,
-      "change_rate_pct": -1.55,
+      "price": 6390,
+      "change_rate_pct": -0.93,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 1.703,
+      "drop_from_high_pct": 1.084,
       "upper_wick_pct": 8.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:27:04+00:00",
-      "source_age_seconds": 7.0,
+      "latest_source_received_at_utc": "2026-09-08T00:28:39+00:00",
+      "source_age_seconds": 14.0,
       "data_state": "live"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": 24950,
-      "change_rate_pct": 1.84,
+      "price": 25050,
+      "change_rate_pct": 2.24,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.399,
-      "upper_wick_pct": 12.5,
+      "drop_from_high_pct": 0.199,
+      "upper_wick_pct": 5.882,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T00:27:07+00:00",
-      "source_age_seconds": 4.0,
+      "latest_source_received_at_utc": "2026-09-08T00:28:51+00:00",
+      "source_age_seconds": 2.0,
       "data_state": "live"
     }
   ],
