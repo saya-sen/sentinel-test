@@ -1,25 +1,25 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 179,
-  "generated_at_utc": "2026-09-08T05:00:07+00:00",
+  "relay_sequence": 180,
+  "generated_at_utc": "2026-09-08T05:01:39+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-08T14:00:07+09:00",
+    "as_of_kst": "2026-09-08T14:01:39+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 3종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 1건",
+  "summary_ko": "관찰 3종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
     "normal_count": 2,
     "watch_count": 3,
     "strong_count": 0,
     "new_or_changed_count": 0,
-    "cleared_or_changed_count": 1,
+    "cleared_or_changed_count": 0,
     "data_incomplete_count": 0
   },
   "watch": [
@@ -47,22 +47,7 @@
     }
   ],
   "strong": [],
-  "transitions": [
-    {
-      "code": "388870",
-      "name": "파로스아이바이오",
-      "status": "cleared",
-      "new_flags": [],
-      "cleared_flags": [
-        "drop_from_high_3pct"
-      ],
-      "active_flags": [],
-      "price": 5360,
-      "drop_from_high_pct": 2.545,
-      "upper_wick_pct": 0.0,
-      "day_change_rate_pct": 1.32
-    }
-  ],
+  "transitions": [],
   "data_incomplete_codes": [],
   "stocks": [
     {
@@ -83,15 +68,15 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T04:59:36+00:00",
-      "source_age_seconds": 31.0,
+      "latest_source_received_at_utc": "2026-09-08T05:00:58+00:00",
+      "source_age_seconds": 41.0,
       "data_state": "live"
     },
     {
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8170,
-      "change_rate_pct": 0.0,
+      "price": 8140,
+      "change_rate_pct": -0.37,
       "risk_level": "watch",
       "transition_status": "ongoing",
       "flags": [
@@ -99,13 +84,13 @@
       ],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.608,
+      "drop_from_high_pct": 0.973,
       "upper_wick_pct": 62.5,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T04:59:45+00:00",
-      "source_age_seconds": 22.0,
+      "latest_source_received_at_utc": "2026-09-08T05:00:49+00:00",
+      "source_age_seconds": 50.0,
       "data_state": "live"
     },
     {
@@ -114,19 +99,17 @@
       "price": 5360,
       "change_rate_pct": 1.32,
       "risk_level": "normal",
-      "transition_status": "cleared",
+      "transition_status": "normal",
       "flags": [],
       "new_flags": [],
-      "cleared_flags": [
-        "drop_from_high_3pct"
-      ],
+      "cleared_flags": [],
       "drop_from_high_pct": 2.545,
       "upper_wick_pct": 0.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T04:59:46+00:00",
-      "source_age_seconds": 21.0,
+      "latest_source_received_at_utc": "2026-09-08T05:00:47+00:00",
+      "source_age_seconds": 52.0,
       "data_state": "live"
     },
     {
@@ -147,26 +130,26 @@
       "orderbook_ok": true,
       "trades_ok": true,
       "latest_source_received_at_utc": "2026-09-08T04:59:46+00:00",
-      "source_age_seconds": 21.0,
+      "source_age_seconds": 113.0,
       "data_state": "live"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": 25950,
-      "change_rate_pct": 5.92,
+      "price": 25850,
+      "change_rate_pct": 5.51,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 1.705,
-      "upper_wick_pct": 20.93,
+      "drop_from_high_pct": 2.083,
+      "upper_wick_pct": 25.581,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-08T04:59:53+00:00",
-      "source_age_seconds": 14.0,
+      "latest_source_received_at_utc": "2026-09-08T05:01:38+00:00",
+      "source_age_seconds": 1.0,
       "data_state": "live"
     }
   ],
