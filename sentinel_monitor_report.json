@@ -1,28 +1,35 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 175,
-  "generated_at_utc": "2026-09-09T05:06:33+00:00",
+  "relay_sequence": 176,
+  "generated_at_utc": "2026-09-09T05:08:06+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-09T14:06:33+09:00",
+    "as_of_kst": "2026-09-09T14:08:06+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 1종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
+  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 1건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
-    "normal_count": 4,
-    "watch_count": 1,
+    "normal_count": 3,
+    "watch_count": 2,
     "strong_count": 0,
-    "new_or_changed_count": 0,
+    "new_or_changed_count": 1,
     "cleared_or_changed_count": 0,
     "data_incomplete_count": 0
   },
   "watch": [
+    {
+      "code": "389650",
+      "name": "넥스트바이오메디컬",
+      "flags": [
+        "upper_wick_40pct"
+      ]
+    },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
@@ -33,26 +40,47 @@
     }
   ],
   "strong": [],
-  "transitions": [],
+  "transitions": [
+    {
+      "code": "389650",
+      "name": "넥스트바이오메디컬",
+      "status": "new",
+      "new_flags": [
+        "upper_wick_40pct"
+      ],
+      "cleared_flags": [],
+      "active_flags": [
+        "upper_wick_40pct"
+      ],
+      "price": 30500,
+      "drop_from_high_pct": 1.454,
+      "upper_wick_pct": 60.0,
+      "day_change_rate_pct": 0.16
+    }
+  ],
   "data_incomplete_codes": [],
   "stocks": [
     {
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 30750,
-      "change_rate_pct": 0.99,
-      "risk_level": "normal",
-      "transition_status": "normal",
-      "flags": [],
-      "new_flags": [],
+      "price": 30500,
+      "change_rate_pct": 0.16,
+      "risk_level": "watch",
+      "transition_status": "new",
+      "flags": [
+        "upper_wick_40pct"
+      ],
+      "new_flags": [
+        "upper_wick_40pct"
+      ],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.646,
-      "upper_wick_pct": 26.667,
+      "drop_from_high_pct": 1.454,
+      "upper_wick_pct": 60.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:05:31+00:00",
-      "source_age_seconds": 62.0,
+      "latest_source_received_at_utc": "2026-09-09T05:07:35+00:00",
+      "source_age_seconds": 31.0,
       "data_state": "live"
     },
     {
@@ -70,8 +98,8 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:05:53+00:00",
-      "source_age_seconds": 40.0,
+      "latest_source_received_at_utc": "2026-09-09T05:07:25+00:00",
+      "source_age_seconds": 41.0,
       "data_state": "live"
     },
     {
@@ -90,7 +118,7 @@
       "orderbook_ok": true,
       "trades_ok": true,
       "latest_source_received_at_utc": "2026-09-09T05:02:42+00:00",
-      "source_age_seconds": 231.0,
+      "source_age_seconds": 324.0,
       "data_state": "delayed_warning"
     },
     {
@@ -108,9 +136,9 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:01:54+00:00",
-      "source_age_seconds": 279.0,
-      "data_state": "delayed_warning"
+      "latest_source_received_at_utc": "2026-09-09T05:07:15+00:00",
+      "source_age_seconds": 51.0,
+      "data_state": "live"
     },
     {
       "code": "200710",
@@ -130,7 +158,7 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:06:28+00:00",
+      "latest_source_received_at_utc": "2026-09-09T05:08:01+00:00",
       "source_age_seconds": 5.0,
       "data_state": "live"
     }
