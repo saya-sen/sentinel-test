@@ -1,24 +1,24 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
-  "relay_sequence": 188,
-  "generated_at_utc": "2026-09-09T05:26:37+00:00",
+  "relay_sequence": 189,
+  "generated_at_utc": "2026-09-09T05:28:10+00:00",
   "collection_status": "healthy",
   "market_session": {
     "code": "regular_hours_schedule",
     "label_ko": "평일 정규장 시간표 구간",
-    "as_of_kst": "2026-09-09T14:26:37+09:00",
+    "as_of_kst": "2026-09-09T14:28:10+09:00",
     "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
   "attention_required": true,
-  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 1건, 해제·변경 0건",
+  "summary_ko": "관찰 2종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
     "normal_count": 3,
     "watch_count": 2,
     "strong_count": 0,
-    "new_or_changed_count": 1,
+    "new_or_changed_count": 0,
     "cleared_or_changed_count": 0,
     "data_incomplete_count": 0
   },
@@ -40,66 +40,47 @@
     }
   ],
   "strong": [],
-  "transitions": [
-    {
-      "code": "389650",
-      "name": "넥스트바이오메디컬",
-      "status": "new",
-      "new_flags": [
-        "upper_wick_40pct"
-      ],
-      "cleared_flags": [],
-      "active_flags": [
-        "upper_wick_40pct"
-      ],
-      "price": 30550,
-      "drop_from_high_pct": 1.292,
-      "upper_wick_pct": 53.333,
-      "day_change_rate_pct": 0.33
-    }
-  ],
+  "transitions": [],
   "data_incomplete_codes": [],
   "stocks": [
     {
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 30550,
-      "change_rate_pct": 0.33,
+      "price": 30500,
+      "change_rate_pct": 0.16,
       "risk_level": "watch",
-      "transition_status": "new",
+      "transition_status": "ongoing",
       "flags": [
         "upper_wick_40pct"
       ],
-      "new_flags": [
-        "upper_wick_40pct"
-      ],
+      "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 1.292,
-      "upper_wick_pct": 53.333,
+      "drop_from_high_pct": 1.454,
+      "upper_wick_pct": 60.0,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:26:09+00:00",
-      "source_age_seconds": 28.0,
+      "latest_source_received_at_utc": "2026-09-09T05:27:19+00:00",
+      "source_age_seconds": 51.0,
       "data_state": "live"
     },
     {
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8080,
-      "change_rate_pct": -0.37,
+      "price": 8070,
+      "change_rate_pct": -0.49,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 0.737,
+      "drop_from_high_pct": 0.86,
       "upper_wick_pct": 10.345,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:25:29+00:00",
-      "source_age_seconds": 68.0,
+      "latest_source_received_at_utc": "2026-09-09T05:27:40+00:00",
+      "source_age_seconds": 30.0,
       "data_state": "live"
     },
     {
@@ -118,26 +99,26 @@
       "orderbook_ok": true,
       "trades_ok": true,
       "latest_source_received_at_utc": "2026-09-09T05:23:10+00:00",
-      "source_age_seconds": 207.0,
+      "source_age_seconds": 300.0,
       "data_state": "delayed_warning"
     },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": 6290,
-      "change_rate_pct": -0.94,
+      "price": 6280,
+      "change_rate_pct": -1.1,
       "risk_level": "normal",
       "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": 1.719,
+      "drop_from_high_pct": 1.875,
       "upper_wick_pct": 33.333,
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:25:22+00:00",
-      "source_age_seconds": 75.0,
+      "latest_source_received_at_utc": "2026-09-09T05:28:00+00:00",
+      "source_age_seconds": 10.0,
       "data_state": "live"
     },
     {
@@ -158,8 +139,8 @@
       "price_ok": true,
       "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": "2026-09-09T05:26:31+00:00",
-      "source_age_seconds": 6.0,
+      "latest_source_received_at_utc": "2026-09-09T05:28:07+00:00",
+      "source_age_seconds": 3.0,
       "data_state": "live"
     }
   ],
