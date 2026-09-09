@@ -1,12 +1,12 @@
 {
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
-  "relay_sequence": 138,
-  "relay_pushed_at_utc": "2026-09-09T04:09:39+00:00",
-  "relay_epoch_ms": 1788926979863,
+  "relay_sequence": 139,
+  "relay_pushed_at_utc": "2026-09-09T04:11:13+00:00",
+  "relay_epoch_ms": 1788927073412,
   "freshness_status": "fresh",
-  "fresh_until_utc": "2026-09-09T04:12:09+00:00",
+  "fresh_until_utc": "2026-09-09T04:13:43+00:00",
   "stale_after_seconds": 150,
-  "cycle_duration_ms": 28640,
+  "cycle_duration_ms": 28623,
   "collection_status": "healthy",
   "stock_count": 5,
   "success_count": 5,
@@ -16,8 +16,9 @@
   "price_pending_codes": [],
   "observation_risk": {
     "observation_only": true,
-    "flagged_count": 1,
+    "flagged_count": 2,
     "flagged_codes": [
+      "389650",
       "200710"
     ],
     "transition_event_count": 1,
@@ -25,16 +26,18 @@
       {
         "code": "389650",
         "name": "넥스트바이오메디컬",
-        "status": "cleared",
-        "new_flags": [],
-        "cleared_flags": [
+        "status": "new",
+        "new_flags": [
           "upper_wick_40pct"
         ],
-        "active_flags": [],
-        "price": 30700,
-        "drop_from_high_pct": 0.808,
-        "upper_wick_pct": 33.333,
-        "day_change_rate_pct": 0.82
+        "cleared_flags": [],
+        "active_flags": [
+          "upper_wick_40pct"
+        ],
+        "price": 30600,
+        "drop_from_high_pct": 1.131,
+        "upper_wick_pct": 46.667,
+        "day_change_rate_pct": 0.49
       }
     ],
     "rules": {
@@ -52,7 +55,7 @@
   "trades_error_count": 0,
   "trades_failed_codes": [],
   "change_detection": {
-    "compared_with_relay_sequence": 137,
+    "compared_with_relay_sequence": 138,
     "price_move_alert_pct": 1.0,
     "volume_delta_alert": 50000,
     "alert_count": 0,
@@ -63,190 +66,220 @@
       "ok": true,
       "code": "389650",
       "name": "넥스트바이오메디컬",
-      "price": 30700,
-      "change": 250,
-      "change_rate": 0.82,
+      "price": 30600,
+      "change": 150,
+      "change_rate": 0.49,
       "open": 30450,
       "high": 30950,
       "low": 30200,
-      "best_ask": 30700,
+      "best_ask": 30600,
       "best_bid": 30500,
-      "volume": 5856,
-      "trading_value": 179390700,
-      "received_at": "2026-09-09T13:08:50+09:00",
+      "volume": 5857,
+      "trading_value": 179421300,
+      "received_at": "2026-09-09T13:10:13+09:00",
       "price_ok": true,
       "price_attempts": 1,
       "price_status": "available",
       "observation_risk": {
         "observation_only": true,
-        "drop_from_high_pct": 0.808,
-        "upper_wick_pct": 33.333,
-        "day_change_rate_pct": 0.82,
-        "flag_count": 0,
-        "flags": [],
-        "risk_level": "normal",
-        "transition_status": "cleared",
-        "new_flags": [],
-        "cleared_flags": [
+        "drop_from_high_pct": 1.131,
+        "upper_wick_pct": 46.667,
+        "day_change_rate_pct": 0.49,
+        "flag_count": 1,
+        "flags": [
           "upper_wick_40pct"
-        ]
+        ],
+        "risk_level": "watch",
+        "transition_status": "new",
+        "new_flags": [
+          "upper_wick_40pct"
+        ],
+        "cleared_flags": []
       },
       "orderbook_ok": true,
       "orderbook_attempts": 1,
       "orderbook": {
         "best_ask": {
           "level": 1,
-          "price": 30700,
-          "quantity": 2
+          "price": 30600,
+          "quantity": 89
         },
         "best_bid": {
           "level": 1,
-          "price": 30500,
-          "quantity": 34
+          "price": 30550,
+          "quantity": 21
         },
-        "total_ask_quantity": 1331,
-        "total_bid_quantity": 1930,
-        "bid_ask_ratio": 1.45,
+        "total_ask_quantity": 1124,
+        "total_bid_quantity": 1401,
+        "bid_ask_ratio": 1.2464,
         "asks": [
           {
             "level": 1,
-            "price": 30700,
-            "quantity": 2
+            "price": 30600,
+            "quantity": 89
           },
           {
             "level": 2,
+            "price": 30700,
+            "quantity": 6
+          },
+          {
+            "level": 3,
             "price": 30750,
             "quantity": 31
           },
           {
-            "level": 3,
+            "level": 4,
             "price": 30800,
             "quantity": 14
           },
           {
-            "level": 4,
+            "level": 5,
             "price": 30850,
             "quantity": 10
           },
           {
-            "level": 5,
+            "level": 6,
             "price": 30950,
             "quantity": 13
           },
           {
-            "level": 6,
+            "level": 7,
             "price": 31000,
             "quantity": 64
           },
           {
-            "level": 7,
+            "level": 8,
             "price": 31050,
             "quantity": 497
           },
           {
-            "level": 8,
+            "level": 9,
             "price": 31100,
             "quantity": 200
           },
           {
-            "level": 9,
+            "level": 10,
             "price": 31150,
             "quantity": 200
-          },
-          {
-            "level": 10,
-            "price": 31200,
-            "quantity": 300
           }
         ],
         "bids": [
           {
             "level": 1,
-            "price": 30500,
-            "quantity": 34
+            "price": 30550,
+            "quantity": 21
           },
           {
             "level": 2,
-            "price": 30450,
-            "quantity": 156
+            "price": 30500,
+            "quantity": 41
           },
           {
             "level": 3,
+            "price": 30450,
+            "quantity": 145
+          },
+          {
+            "level": 4,
             "price": 30400,
             "quantity": 25
           },
           {
-            "level": 4,
+            "level": 5,
             "price": 30350,
             "quantity": 25
           },
           {
-            "level": 5,
+            "level": 6,
             "price": 30300,
             "quantity": 75
           },
           {
-            "level": 6,
+            "level": 7,
             "price": 30250,
             "quantity": 48
           },
           {
-            "level": 7,
+            "level": 8,
             "price": 30200,
             "quantity": 226
           },
           {
-            "level": 8,
+            "level": 9,
             "price": 30150,
             "quantity": 421
           },
           {
-            "level": 9,
+            "level": 10,
             "price": 30100,
             "quantity": 374
-          },
-          {
-            "level": 10,
-            "price": 30050,
-            "quantity": 546
           }
         ],
-        "received_at": "2026-09-09T13:08:55+09:00"
+        "received_at": "2026-09-09T13:10:14+09:00"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
           "code": "389650",
-          "trade_time": "130850",
-          "price": 30700,
+          "trade_time": "131012",
+          "price": 30600,
           "change_sign": "2",
-          "change": 250,
-          "change_rate_pct": 0.82,
+          "change": 150,
+          "change_rate_pct": 0.49,
           "weighted_average_price": null,
           "open": 30450,
           "high": 30950,
           "low": 30200,
-          "best_ask": 30700,
+          "best_ask": 30600,
           "best_bid": 30500,
-          "trade_volume": 2,
-          "acc_volume": 5856,
-          "acc_trading_value": 179390700,
+          "trade_volume": 1,
+          "acc_volume": 5857,
+          "acc_trading_value": 179421300,
           "sell_trade_count": 156,
-          "buy_trade_count": 206,
-          "net_buy_trade_count": 50,
-          "trade_strength": 119.65,
+          "buy_trade_count": 207,
+          "net_buy_trade_count": 51,
+          "trade_strength": 119.69,
           "acc_sell_volume": 2661,
-          "acc_buy_volume": 3184,
+          "acc_buy_volume": 3185,
           "trade_division": "1",
           "buy_ratio": 0.55,
           "name": "넥스트바이오메디컬",
           "field_count": 46,
-          "received_at": "2026-09-09T13:08:50+09:00"
+          "received_at": "2026-09-09T13:10:13+09:00"
         },
-        "trade_strength": 119.65,
+        "trade_strength": 119.69,
         "recent_trade_count": 20,
         "recent_trades": [
+          {
+            "code": "389650",
+            "trade_time": "131012",
+            "price": 30600,
+            "change_sign": "2",
+            "change": 150,
+            "change_rate_pct": 0.49,
+            "weighted_average_price": null,
+            "open": 30450,
+            "high": 30950,
+            "low": 30200,
+            "best_ask": 30600,
+            "best_bid": 30500,
+            "trade_volume": 1,
+            "acc_volume": 5857,
+            "acc_trading_value": 179421300,
+            "sell_trade_count": 156,
+            "buy_trade_count": 207,
+            "net_buy_trade_count": 51,
+            "trade_strength": 119.69,
+            "acc_sell_volume": 2661,
+            "acc_buy_volume": 3185,
+            "trade_division": "1",
+            "buy_ratio": 0.55,
+            "name": "넥스트바이오메디컬",
+            "field_count": 46,
+            "received_at": "2026-09-09T13:10:13+09:00"
+          },
           {
             "code": "389650",
             "trade_time": "130850",
@@ -358,68 +391,40 @@
             "name": "넥스트바이오메디컬",
             "field_count": 46,
             "received_at": "2026-09-09T13:08:20+09:00"
-          },
-          {
-            "code": "389650",
-            "trade_time": "130820",
-            "price": 30550,
-            "change_sign": "2",
-            "change": 100,
-            "change_rate_pct": 0.33,
-            "weighted_average_price": null,
-            "open": 30450,
-            "high": 30950,
-            "low": 30200,
-            "best_ask": 30550,
-            "best_bid": 30500,
-            "trade_volume": 1,
-            "acc_volume": 5840,
-            "acc_trading_value": 178901000,
-            "sell_trade_count": 155,
-            "buy_trade_count": 203,
-            "net_buy_trade_count": 48,
-            "trade_strength": 119.14,
-            "acc_sell_volume": 2660,
-            "acc_buy_volume": 3169,
-            "trade_division": "1",
-            "buy_ratio": 0.55,
-            "name": "넥스트바이오메디컬",
-            "field_count": 46,
-            "received_at": "2026-09-09T13:08:20+09:00"
           }
         ],
-        "received_at": "2026-09-09T13:08:50+09:00"
+        "received_at": "2026-09-09T13:10:13+09:00"
       },
       "change_detection": "compared",
-      "previous_price": 30600,
-      "price_delta": 100,
-      "price_delta_pct": 0.327,
-      "volume_delta": 166,
-      "trading_value_delta": 5072200
+      "previous_price": 30700,
+      "price_delta": -100,
+      "price_delta_pct": -0.326,
+      "volume_delta": 1,
+      "trading_value_delta": 30600
     },
     {
       "ok": true,
       "code": "122900",
       "name": "아이마켓코리아",
-      "price": 8100,
-      "change": -10,
-      "change_rate": -0.12,
+      "price": 8070,
+      "change": -40,
+      "change_rate": -0.49,
       "open": 8110,
       "high": 8140,
       "low": 7850,
-      "best_ask": 8100,
-      "best_bid": 8090,
-      "volume": 41153,
-      "trading_value": 331890960,
-      "received_at": "2026-09-09T13:04:00+09:00",
+      "best_ask": 8090,
+      "best_bid": 8070,
+      "volume": 41596,
+      "trading_value": 335469800,
+      "received_at": "2026-09-09T13:10:01+09:00",
       "price_ok": true,
       "price_attempts": 1,
       "price_status": "available",
       "observation_risk": {
         "observation_only": true,
-        "drop_from_high_pct": 0.491,
+        "drop_from_high_pct": 0.86,
         "upper_wick_pct": 10.345,
-        "day_change_rate_pct": -0.12,
+        "day_change_rate_pct": -0.49,
         "flag_count": 0,
         "flags": [],
         "risk_level": "normal",
@@ -432,157 +437,269 @@
       "orderbook": {
         "best_ask": {
           "level": 1,
-          "price": 8100,
-          "quantity": 486
+          "price": 8080,
+          "quantity": 374
         },
         "best_bid": {
           "level": 1,
-          "price": 8090,
-          "quantity": 6
+          "price": 8060,
+          "quantity": 122
         },
-        "total_ask_quantity": 4913,
-        "total_bid_quantity": 7245,
-        "bid_ask_ratio": 1.4747,
+        "total_ask_quantity": 1683,
+        "total_bid_quantity": 8829,
+        "bid_ask_ratio": 5.246,
         "asks": [
           {
             "level": 1,
-            "price": 8100,
-            "quantity": 486
+            "price": 8080,
+            "quantity": 374
           },
           {
             "level": 2,
-            "price": 8110,
-            "quantity": 142
+            "price": 8090,
+            "quantity": 117
           },
           {
             "level": 3,
-            "price": 8120,
-            "quantity": 373
+            "price": 8100,
+            "quantity": 4
           },
           {
             "level": 4,
+            "price": 8110,
+            "quantity": 100
+          },
+          {
+            "level": 5,
+            "price": 8120,
+            "quantity": 323
+          },
+          {
+            "level": 6,
             "price": 8130,
             "quantity": 190
           },
           {
-            "level": 5,
+            "level": 7,
             "price": 8140,
             "quantity": 143
           },
           {
-            "level": 6,
+            "level": 8,
             "price": 8150,
             "quantity": 160
           },
           {
-            "level": 7,
+            "level": 9,
             "price": 8160,
             "quantity": 79
           },
           {
-            "level": 8,
+            "level": 10,
             "price": 8170,
             "quantity": 193
-          },
-          {
-            "level": 9,
-            "price": 8180,
-            "quantity": 92
-          },
-          {
-            "level": 10,
-            "price": 8190,
-            "quantity": 3055
           }
         ],
         "bids": [
           {
             "level": 1,
-            "price": 8090,
-            "quantity": 6
+            "price": 8060,
+            "quantity": 122
           },
           {
             "level": 2,
-            "price": 8080,
-            "quantity": 439
-          },
-          {
-            "level": 3,
-            "price": 8070,
-            "quantity": 168
-          },
-          {
-            "level": 4,
-            "price": 8060,
-            "quantity": 1118
-          },
-          {
-            "level": 5,
             "price": 8050,
             "quantity": 232
           },
           {
-            "level": 6,
+            "level": 3,
             "price": 8040,
-            "quantity": 421
+            "quantity": 1428
           },
           {
-            "level": 7,
+            "level": 4,
             "price": 8030,
             "quantity": 1283
           },
           {
-            "level": 8,
+            "level": 5,
             "price": 8020,
             "quantity": 771
           },
           {
-            "level": 9,
+            "level": 6,
             "price": 8010,
             "quantity": 1303
           },
           {
-            "level": 10,
+            "level": 7,
             "price": 8000,
             "quantity": 1504
+          },
+          {
+            "level": 8,
+            "price": 7990,
+            "quantity": 543
+          },
+          {
+            "level": 9,
+            "price": 7980,
+            "quantity": 1008
+          },
+          {
+            "level": 10,
+            "price": 7970,
+            "quantity": 635
           }
         ],
-        "received_at": "2026-09-09T13:09:10+09:00"
+        "received_at": "2026-09-09T13:10:25+09:00"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
           "code": "122900",
-          "trade_time": "130359",
-          "price": 8100,
+          "trade_time": "131001",
+          "price": 8070,
           "change_sign": "5",
-          "change": -10,
-          "change_rate_pct": -0.12,
+          "change": -40,
+          "change_rate_pct": -0.49,
           "weighted_average_price": null,
           "open": 8110,
           "high": 8140,
           "low": 7850,
-          "best_ask": 8100,
-          "best_bid": 8090,
-          "trade_volume": 100,
-          "acc_volume": 41153,
-          "acc_trading_value": 331890960,
-          "sell_trade_count": 189,
+          "best_ask": 8090,
+          "best_bid": 8070,
+          "trade_volume": 66,
+          "acc_volume": 41596,
+          "acc_trading_value": 335469800,
+          "sell_trade_count": 193,
           "buy_trade_count": 255,
-          "net_buy_trade_count": 66,
-          "trade_strength": 84.14,
-          "acc_sell_volume": 22340,
+          "net_buy_trade_count": 62,
+          "trade_strength": 82.5,
+          "acc_sell_volume": 22783,
           "acc_buy_volume": 18797,
-          "trade_division": "1",
+          "trade_division": "5",
           "buy_ratio": 0.46,
           "name": "아이마켓코리아",
           "field_count": 46,
-          "received_at": "2026-09-09T13:04:00+09:00"
+          "received_at": "2026-09-09T13:10:01+09:00"
         },
-        "trade_strength": 84.14,
+        "trade_strength": 82.5,
         "recent_trade_count": 20,
         "recent_trades": [
+          {
+            "code": "122900",
+            "trade_time": "131001",
+            "price": 8070,
+            "change_sign": "5",
+            "change": -40,
+            "change_rate_pct": -0.49,
+            "weighted_average_price": null,
+            "open": 8110,
+            "high": 8140,
+            "low": 7850,
+            "best_ask": 8090,
+            "best_bid": 8070,
+            "trade_volume": 66,
+            "acc_volume": 41596,
+            "acc_trading_value": 335469800,
+            "sell_trade_count": 193,
+            "buy_trade_count": 255,
+            "net_buy_trade_count": 62,
+            "trade_strength": 82.5,
+            "acc_sell_volume": 22783,
+            "acc_buy_volume": 18797,
+            "trade_division": "5",
+            "buy_ratio": 0.46,
+            "name": "아이마켓코리아",
+            "field_count": 46,
+            "received_at": "2026-09-09T13:10:01+09:00"
+          },
+          {
+            "code": "122900",
+            "trade_time": "131000",
+            "price": 8080,
+            "change_sign": "5",
+            "change": -30,
+            "change_rate_pct": -0.37,
+            "weighted_average_price": null,
+            "open": 8110,
+            "high": 8140,
+            "low": 7850,
+            "best_ask": 8100,
+            "best_bid": 8090,
+            "trade_volume": 370,
+            "acc_volume": 41530,
+            "acc_trading_value": 334937180,
+            "sell_trade_count": 192,
+            "buy_trade_count": 255,
+            "net_buy_trade_count": 63,
+            "trade_strength": 82.74,
+            "acc_sell_volume": 22717,
+            "acc_buy_volume": 18797,
+            "trade_division": "5",
+            "buy_ratio": 0.46,
+            "name": "아이마켓코리아",
+            "field_count": 46,
+            "received_at": "2026-09-09T13:10:01+09:00"
+          },
+          {
+            "code": "122900",
+            "trade_time": "131000",
+            "price": 8080,
+            "change_sign": "5",
+            "change": -30,
+            "change_rate_pct": -0.37,
+            "weighted_average_price": null,
+            "open": 8110,
+            "high": 8140,
+            "low": 7850,
+            "best_ask": 8100,
+            "best_bid": 8090,
+            "trade_volume": 1,
+            "acc_volume": 41160,
+            "acc_trading_value": 331947580,
+            "sell_trade_count": 191,
+            "buy_trade_count": 255,
+            "net_buy_trade_count": 64,
+            "trade_strength": 84.11,
+            "acc_sell_volume": 22347,
+            "acc_buy_volume": 18797,
+            "trade_division": "5",
+            "buy_ratio": 0.46,
+            "name": "아이마켓코리아",
+            "field_count": 46,
+            "received_at": "2026-09-09T13:10:01+09:00"
+          },
+          {
+            "code": "122900",
+            "trade_time": "131000",
+            "price": 8090,
+            "change_sign": "5",
+            "change": -20,
+            "change_rate_pct": -0.25,
+            "weighted_average_price": null,
+            "open": 8110,
+            "high": 8140,
+            "low": 7850,
+            "best_ask": 8100,
+            "best_bid": 8090,
+            "trade_volume": 6,
+            "acc_volume": 41159,
+            "acc_trading_value": 331939500,
+            "sell_trade_count": 190,
+            "buy_trade_count": 255,
+            "net_buy_trade_count": 65,
+            "trade_strength": 84.12,
+            "acc_sell_volume": 22346,
+            "acc_buy_volume": 18797,
+            "trade_division": "5",
+            "buy_ratio": 0.46,
+            "name": "아이마켓코리아",
+            "field_count": 46,
+            "received_at": "2026-09-09T13:10:01+09:00"
+          },
           {
             "code": "122900",
             "trade_time": "130359",
@@ -610,128 +727,16 @@
             "name": "아이마켓코리아",
             "field_count": 46,
             "received_at": "2026-09-09T13:04:00+09:00"
-          },
-          {
-            "code": "122900",
-            "trade_time": "130136",
-            "price": 8100,
-            "change_sign": "5",
-            "change": -10,
-            "change_rate_pct": -0.12,
-            "weighted_average_price": null,
-            "open": 8110,
-            "high": 8140,
-            "low": 7850,
-            "best_ask": 8100,
-            "best_bid": 8070,
-            "trade_volume": 101,
-            "acc_volume": 41053,
-            "acc_trading_value": 331080960,
-            "sell_trade_count": 189,
-            "buy_trade_count": 254,
-            "net_buy_trade_count": 65,
-            "trade_strength": 83.69,
-            "acc_sell_volume": 22340,
-            "acc_buy_volume": 18697,
-            "trade_division": "1",
-            "buy_ratio": 0.46,
-            "name": "아이마켓코리아",
-            "field_count": 46,
-            "received_at": "2026-09-09T13:01:36+09:00"
-          },
-          {
-            "code": "122900",
-            "trade_time": "130134",
-            "price": 8080,
-            "change_sign": "5",
-            "change": -30,
-            "change_rate_pct": -0.37,
-            "weighted_average_price": null,
-            "open": 8110,
-            "high": 8140,
-            "low": 7850,
-            "best_ask": 8080,
-            "best_bid": 8070,
-            "trade_volume": 42,
-            "acc_volume": 40952,
-            "acc_trading_value": 330262860,
-            "sell_trade_count": 189,
-            "buy_trade_count": 253,
-            "net_buy_trade_count": 64,
-            "trade_strength": 83.24,
-            "acc_sell_volume": 22340,
-            "acc_buy_volume": 18596,
-            "trade_division": "1",
-            "buy_ratio": 0.46,
-            "name": "아이마켓코리아",
-            "field_count": 46,
-            "received_at": "2026-09-09T13:01:35+09:00"
-          },
-          {
-            "code": "122900",
-            "trade_time": "130134",
-            "price": 8080,
-            "change_sign": "5",
-            "change": -30,
-            "change_rate_pct": -0.37,
-            "weighted_average_price": null,
-            "open": 8110,
-            "high": 8140,
-            "low": 7850,
-            "best_ask": 8080,
-            "best_bid": 8070,
-            "trade_volume": 33,
-            "acc_volume": 40910,
-            "acc_trading_value": 329923500,
-            "sell_trade_count": 189,
-            "buy_trade_count": 252,
-            "net_buy_trade_count": 63,
-            "trade_strength": 83.05,
-            "acc_sell_volume": 22340,
-            "acc_buy_volume": 18554,
-            "trade_division": "1",
-            "buy_ratio": 0.46,
-            "name": "아이마켓코리아",
-            "field_count": 46,
-            "received_at": "2026-09-09T13:01:35+09:00"
-          },
-          {
-            "code": "122900",
-            "trade_time": "130134",
-            "price": 8080,
-            "change_sign": "5",
-            "change": -30,
-            "change_rate_pct": -0.37,
-            "weighted_average_price": null,
-            "open": 8110,
-            "high": 8140,
-            "low": 7850,
-            "best_ask": 8080,
-            "best_bid": 8070,
-            "trade_volume": 56,
-            "acc_volume": 40877,
-            "acc_trading_value": 329656860,
-            "sell_trade_count": 189,
-            "buy_trade_count": 251,
-            "net_buy_trade_count": 62,
-            "trade_strength": 82.91,
-            "acc_sell_volume": 22340,
-            "acc_buy_volume": 18521,
-            "trade_division": "1",
-            "buy_ratio": 0.46,
-            "name": "아이마켓코리아",
-            "field_count": 46,
-            "received_at": "2026-09-09T13:01:35+09:00"
           }
         ],
-        "received_at": "2026-09-09T13:04:00+09:00"
+        "received_at": "2026-09-09T13:10:01+09:00"
       },
       "change_detection": "compared",
       "previous_price": 8100,
-      "price_delta": 0,
-      "price_delta_pct": 0.0,
-      "volume_delta": 0,
-      "trading_value_delta": 0
+      "price_delta": -30,
+      "price_delta_pct": -0.37,
+      "volume_delta": 443,
+      "trading_value_delta": 3578840
     },
     {
       "ok": true,
@@ -769,26 +774,26 @@
         "best_ask": {
           "level": 1,
           "price": 5360,
-          "quantity": 21
+          "quantity": 60
         },
         "best_bid": {
           "level": 1,
           "price": 5350,
           "quantity": 81
         },
-        "total_ask_quantity": 2642,
-        "total_bid_quantity": 2406,
-        "bid_ask_ratio": 0.9107,
+        "total_ask_quantity": 3508,
+        "total_bid_quantity": 3157,
+        "bid_ask_ratio": 0.8999,
         "asks": [
           {
             "level": 1,
             "price": 5360,
-            "quantity": 21
+            "quantity": 60
           },
           {
             "level": 2,
             "price": 5370,
-            "quantity": 670
+            "quantity": 1497
           },
           {
             "level": 3,
@@ -840,7 +845,7 @@
           {
             "level": 2,
             "price": 5330,
-            "quantity": 43
+            "quantity": 794
           },
           {
             "level": 3,
@@ -883,7 +888,7 @@
             "quantity": 10
           }
         ],
-        "received_at": "2026-09-09T13:08:42+09:00"
+        "received_at": "2026-09-09T13:10:48+09:00"
       },
       "trades_ok": true,
       "trades_attempts": 1,
@@ -1105,21 +1110,21 @@
         "best_ask": {
           "level": 1,
           "price": 6340,
-          "quantity": 23
+          "quantity": 51
         },
         "best_bid": {
           "level": 1,
           "price": 6330,
           "quantity": 35
         },
-        "total_ask_quantity": 3307,
+        "total_ask_quantity": 3335,
         "total_bid_quantity": 4362,
-        "bid_ask_ratio": 1.319,
+        "bid_ask_ratio": 1.3079,
         "asks": [
           {
             "level": 1,
             "price": 6340,
-            "quantity": 23
+            "quantity": 51
           },
           {
             "level": 2,
@@ -1219,7 +1224,7 @@
             "quantity": 24
           }
         ],
-        "received_at": "2026-09-09T13:08:25+09:00"
+        "received_at": "2026-09-09T13:10:50+09:00"
       },
       "trades_ok": true,
       "trades_attempts": 1,
@@ -1417,9 +1422,9 @@
       "low": 25000,
       "best_ask": 25150,
       "best_bid": 25100,
-      "volume": 51128,
-      "trading_value": 1305043850,
-      "received_at": "2026-09-09T13:09:32+09:00",
+      "volume": 51401,
+      "trading_value": 1311910600,
+      "received_at": "2026-09-09T13:11:07+09:00",
       "price_ok": true,
       "price_attempts": 1,
       "price_status": "available",
@@ -1444,26 +1449,26 @@
         "best_ask": {
           "level": 1,
           "price": 25200,
-          "quantity": 136
+          "quantity": 219
         },
         "best_bid": {
           "level": 1,
-          "price": 25150,
-          "quantity": 50
+          "price": 25100,
+          "quantity": 1050
         },
-        "total_ask_quantity": 1187,
-        "total_bid_quantity": 3654,
-        "bid_ask_ratio": 3.0783,
+        "total_ask_quantity": 1267,
+        "total_bid_quantity": 3896,
+        "bid_ask_ratio": 3.075,
         "asks": [
           {
             "level": 1,
             "price": 25200,
-            "quantity": 136
+            "quantity": 219
           },
           {
             "level": 2,
             "price": 25250,
-            "quantity": 45
+            "quantity": 42
           },
           {
             "level": 3,
@@ -1509,63 +1514,63 @@
         "bids": [
           {
             "level": 1,
-            "price": 25150,
-            "quantity": 50
+            "price": 25100,
+            "quantity": 1050
           },
           {
             "level": 2,
-            "price": 25100,
-            "quantity": 1063
+            "price": 25050,
+            "quantity": 164
           },
           {
             "level": 3,
-            "price": 25050,
-            "quantity": 215
-          },
-          {
-            "level": 4,
             "price": 25000,
             "quantity": 866
           },
           {
-            "level": 5,
+            "level": 4,
             "price": 24950,
-            "quantity": 31
+            "quantity": 121
           },
           {
-            "level": 6,
+            "level": 5,
             "price": 24900,
             "quantity": 125
           },
           {
-            "level": 7,
+            "level": 6,
             "price": 24850,
-            "quantity": 211
+            "quantity": 271
           },
           {
-            "level": 8,
+            "level": 7,
             "price": 24800,
             "quantity": 569
           },
           {
-            "level": 9,
+            "level": 8,
             "price": 24750,
             "quantity": 186
           },
           {
-            "level": 10,
+            "level": 9,
             "price": 24700,
             "quantity": 338
+          },
+          {
+            "level": 10,
+            "price": 24650,
+            "quantity": 206
           }
         ],
-        "received_at": "2026-09-09T13:09:36+09:00"
+        "received_at": "2026-09-09T13:11:07+09:00"
       },
       "trades_ok": true,
       "trades_attempts": 1,
       "trades": {
         "latest_trade": {
           "code": "200710",
-          "trade_time": "130932",
+          "trade_time": "131107",
           "price": 25150,
           "change_sign": "5",
           "change": -50,
@@ -1576,27 +1581,27 @@
           "low": 25000,
           "best_ask": 25150,
           "best_bid": 25100,
-          "trade_volume": 4,
-          "acc_volume": 51128,
-          "acc_trading_value": 1305043850,
-          "sell_trade_count": 817,
-          "buy_trade_count": 595,
-          "net_buy_trade_count": -222,
-          "trade_strength": 66.97,
-          "acc_sell_volume": 30406,
-          "acc_buy_volume": 20362,
-          "trade_division": "1",
+          "trade_volume": 15,
+          "acc_volume": 51401,
+          "acc_trading_value": 1311910600,
+          "sell_trade_count": 829,
+          "buy_trade_count": 600,
+          "net_buy_trade_count": -229,
+          "trade_strength": 66.53,
+          "acc_sell_volume": 30650,
+          "acc_buy_volume": 20391,
+          "trade_division": "5",
           "buy_ratio": 0.4,
           "name": "에이디테크놀로지",
           "field_count": 46,
-          "received_at": "2026-09-09T13:09:32+09:00"
+          "received_at": "2026-09-09T13:11:07+09:00"
         },
-        "trade_strength": 66.97,
+        "trade_strength": 66.53,
         "recent_trade_count": 20,
         "recent_trades": [
           {
             "code": "200710",
-            "trade_time": "130932",
+            "trade_time": "131107",
             "price": 25150,
             "change_sign": "5",
             "change": -50,
@@ -1607,52 +1612,24 @@
             "low": 25000,
             "best_ask": 25150,
             "best_bid": 25100,
-            "trade_volume": 4,
-            "acc_volume": 51128,
-            "acc_trading_value": 1305043850,
-            "sell_trade_count": 817,
-            "buy_trade_count": 595,
-            "net_buy_trade_count": -222,
-            "trade_strength": 66.97,
-            "acc_sell_volume": 30406,
-            "acc_buy_volume": 20362,
-            "trade_division": "1",
+            "trade_volume": 15,
+            "acc_volume": 51401,
+            "acc_trading_value": 1311910600,
+            "sell_trade_count": 829,
+            "buy_trade_count": 600,
+            "net_buy_trade_count": -229,
+            "trade_strength": 66.53,
+            "acc_sell_volume": 30650,
+            "acc_buy_volume": 20391,
+            "trade_division": "5",
             "buy_ratio": 0.4,
             "name": "에이디테크놀로지",
             "field_count": 46,
-            "received_at": "2026-09-09T13:09:32+09:00"
+            "received_at": "2026-09-09T13:11:07+09:00"
           },
           {
             "code": "200710",
-            "trade_time": "130929",
-            "price": 25150,
-            "change_sign": "5",
-            "change": -50,
-            "change_rate_pct": -0.2,
-            "weighted_average_price": null,
-            "open": 25400,
-            "high": 25950,
-            "low": 25000,
-            "best_ask": 25150,
-            "best_bid": 25100,
-            "trade_volume": 4,
-            "acc_volume": 51124,
-            "acc_trading_value": 1304943250,
-            "sell_trade_count": 817,
-            "buy_trade_count": 594,
-            "net_buy_trade_count": -223,
-            "trade_strength": 66.95,
-            "acc_sell_volume": 30406,
-            "acc_buy_volume": 20358,
-            "trade_division": "1",
-            "buy_ratio": 0.4,
-            "name": "에이디테크놀로지",
-            "field_count": 46,
-            "received_at": "2026-09-09T13:09:29+09:00"
-          },
-          {
-            "code": "200710",
-            "trade_time": "130926",
+            "trade_time": "131107",
             "price": 25150,
             "change_sign": "5",
             "change": -50,
@@ -1664,23 +1641,23 @@
             "best_ask": 25150,
             "best_bid": 25100,
             "trade_volume": 1,
-            "acc_volume": 51120,
-            "acc_trading_value": 1304842650,
-            "sell_trade_count": 817,
-            "buy_trade_count": 593,
-            "net_buy_trade_count": -224,
-            "trade_strength": 66.94,
-            "acc_sell_volume": 30406,
-            "acc_buy_volume": 20354,
+            "acc_volume": 51386,
+            "acc_trading_value": 1311533350,
+            "sell_trade_count": 828,
+            "buy_trade_count": 600,
+            "net_buy_trade_count": -228,
+            "trade_strength": 66.56,
+            "acc_sell_volume": 30635,
+            "acc_buy_volume": 20391,
             "trade_division": "1",
             "buy_ratio": 0.4,
             "name": "에이디테크놀로지",
             "field_count": 46,
-            "received_at": "2026-09-09T13:09:26+09:00"
+            "received_at": "2026-09-09T13:11:07+09:00"
           },
           {
             "code": "200710",
-            "trade_time": "130922",
+            "trade_time": "131100",
             "price": 25150,
             "change_sign": "5",
             "change": -50,
@@ -1691,24 +1668,24 @@
             "low": 25000,
             "best_ask": 25150,
             "best_bid": 25100,
-            "trade_volume": 487,
-            "acc_volume": 51119,
-            "acc_trading_value": 1304817500,
-            "sell_trade_count": 817,
-            "buy_trade_count": 592,
-            "net_buy_trade_count": -225,
-            "trade_strength": 66.94,
-            "acc_sell_volume": 30406,
-            "acc_buy_volume": 20353,
-            "trade_division": "1",
+            "trade_volume": 60,
+            "acc_volume": 51385,
+            "acc_trading_value": 1311508200,
+            "sell_trade_count": 828,
+            "buy_trade_count": 599,
+            "net_buy_trade_count": -229,
+            "trade_strength": 66.56,
+            "acc_sell_volume": 30635,
+            "acc_buy_volume": 20390,
+            "trade_division": "5",
             "buy_ratio": 0.4,
             "name": "에이디테크놀로지",
             "field_count": 46,
-            "received_at": "2026-09-09T13:09:23+09:00"
+            "received_at": "2026-09-09T13:11:00+09:00"
           },
           {
             "code": "200710",
-            "trade_time": "130908",
+            "trade_time": "131100",
             "price": 25150,
             "change_sign": "5",
             "change": -50,
@@ -1717,32 +1694,60 @@
             "open": 25400,
             "high": 25950,
             "low": 25000,
-            "best_ask": 25200,
-            "best_bid": 25150,
-            "trade_volume": 50,
-            "acc_volume": 50632,
-            "acc_trading_value": 1292569450,
-            "sell_trade_count": 817,
-            "buy_trade_count": 591,
-            "net_buy_trade_count": -226,
-            "trade_strength": 65.34,
-            "acc_sell_volume": 30406,
-            "acc_buy_volume": 19866,
-            "trade_division": "5",
+            "best_ask": 25150,
+            "best_bid": 25100,
+            "trade_volume": 11,
+            "acc_volume": 51325,
+            "acc_trading_value": 1309999200,
+            "sell_trade_count": 827,
+            "buy_trade_count": 599,
+            "net_buy_trade_count": -228,
+            "trade_strength": 66.69,
+            "acc_sell_volume": 30575,
+            "acc_buy_volume": 20390,
+            "trade_division": "1",
             "buy_ratio": 0.4,
             "name": "에이디테크놀로지",
             "field_count": 46,
-            "received_at": "2026-09-09T13:09:08+09:00"
+            "received_at": "2026-09-09T13:11:00+09:00"
+          },
+          {
+            "code": "200710",
+            "trade_time": "131050",
+            "price": 25150,
+            "change_sign": "5",
+            "change": -50,
+            "change_rate_pct": -0.2,
+            "weighted_average_price": null,
+            "open": 25400,
+            "high": 25950,
+            "low": 25000,
+            "best_ask": 25150,
+            "best_bid": 25100,
+            "trade_volume": 1,
+            "acc_volume": 51314,
+            "acc_trading_value": 1309722550,
+            "sell_trade_count": 827,
+            "buy_trade_count": 598,
+            "net_buy_trade_count": -229,
+            "trade_strength": 66.65,
+            "acc_sell_volume": 30575,
+            "acc_buy_volume": 20379,
+            "trade_division": "1",
+            "buy_ratio": 0.4,
+            "name": "에이디테크놀로지",
+            "field_count": 46,
+            "received_at": "2026-09-09T13:10:50+09:00"
           }
         ],
-        "received_at": "2026-09-09T13:09:32+09:00"
+        "received_at": "2026-09-09T13:11:07+09:00"
       },
       "change_detection": "compared",
       "previous_price": 25150,
       "price_delta": 0,
       "price_delta_pct": 0.0,
-      "volume_delta": 655,
-      "trading_value_delta": 16478450
+      "volume_delta": 273,
+      "trading_value_delta": 6866750
     }
   ]
 }
