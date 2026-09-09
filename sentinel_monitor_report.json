@@ -2,35 +2,57 @@
   "sentinel_version": "SENTINEL MULTI RELAY v0.18 / CLOSED MARKET IDLE",
   "report_type": "observation_only",
   "relay_sequence": 1,
-  "generated_at_utc": "2026-09-08T10:13:59+00:00",
-  "collection_status": "degraded",
+  "generated_at_utc": "2026-09-09T00:36:51+00:00",
+  "collection_status": "healthy",
   "market_session": {
-    "code": "closed_outside_regular_hours",
-    "label_ko": "정규장 외 시간",
-    "as_of_kst": "2026-09-08T19:13:59+09:00",
-    "expected_realtime": false,
+    "code": "regular_hours_schedule",
+    "label_ko": "평일 정규장 시간표 구간",
+    "as_of_kst": "2026-09-09T09:36:51+09:00",
+    "expected_realtime": true,
     "calendar_basis": "평일 09:00~15:30 시간표 기준; 공휴일 별도 확정 안 함"
   },
-  "attention_required": false,
-  "summary_ko": "관찰 0종목, 강한 위험 0종목, 신규·변경 0건, 해제·변경 0건",
+  "attention_required": true,
+  "summary_ko": "관찰 1종목, 강한 위험 0종목, 신규·변경 1건, 해제·변경 0건",
   "counts": {
     "stock_count": 5,
-    "normal_count": 0,
-    "watch_count": 0,
+    "normal_count": 2,
+    "watch_count": 1,
     "strong_count": 0,
-    "new_or_changed_count": 0,
+    "new_or_changed_count": 1,
     "cleared_or_changed_count": 0,
-    "data_incomplete_count": 5
+    "data_incomplete_count": 2
   },
-  "watch": [],
+  "watch": [
+    {
+      "code": "200710",
+      "name": "에이디테크놀로지",
+      "flags": [
+        "upper_wick_40pct"
+      ]
+    }
+  ],
   "strong": [],
-  "transitions": [],
+  "transitions": [
+    {
+      "code": "200710",
+      "name": "에이디테크놀로지",
+      "status": "new",
+      "new_flags": [
+        "upper_wick_40pct"
+      ],
+      "cleared_flags": [],
+      "active_flags": [
+        "upper_wick_40pct"
+      ],
+      "price": 25500,
+      "drop_from_high_pct": 1.734,
+      "upper_wick_pct": 50.0,
+      "day_change_rate_pct": 1.19
+    }
+  ],
   "data_incomplete_codes": [
     "389650",
-    "122900",
-    "388870",
-    "950210",
-    "200710"
+    "122900"
   ],
   "stocks": [
     {
@@ -46,11 +68,11 @@
       "drop_from_high_pct": null,
       "upper_wick_pct": null,
       "price_ok": false,
-      "orderbook_ok": false,
+      "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": null,
-      "source_age_seconds": null,
-      "data_state": "no_data"
+      "latest_source_received_at_utc": "2026-09-09T00:36:13+00:00",
+      "source_age_seconds": 38.0,
+      "data_state": "live"
     },
     {
       "code": "122900",
@@ -65,68 +87,72 @@
       "drop_from_high_pct": null,
       "upper_wick_pct": null,
       "price_ok": false,
-      "orderbook_ok": false,
+      "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": null,
-      "source_age_seconds": null,
-      "data_state": "no_data"
+      "latest_source_received_at_utc": "2026-09-09T00:36:27+00:00",
+      "source_age_seconds": 24.0,
+      "data_state": "live"
     },
     {
       "code": "388870",
       "name": "파로스아이바이오",
-      "price": null,
-      "change_rate_pct": null,
-      "risk_level": "unknown",
-      "transition_status": "unavailable",
+      "price": 5290,
+      "change_rate_pct": -0.94,
+      "risk_level": "normal",
+      "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": null,
-      "upper_wick_pct": null,
-      "price_ok": false,
-      "orderbook_ok": false,
+      "drop_from_high_pct": 1.121,
+      "upper_wick_pct": 9.091,
+      "price_ok": true,
+      "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": null,
-      "source_age_seconds": null,
-      "data_state": "no_data"
+      "latest_source_received_at_utc": "2026-09-09T00:36:36+00:00",
+      "source_age_seconds": 15.0,
+      "data_state": "live"
     },
     {
       "code": "950210",
       "name": "프레스티지바이오파마",
-      "price": null,
-      "change_rate_pct": null,
-      "risk_level": "unknown",
-      "transition_status": "unavailable",
+      "price": 6330,
+      "change_rate_pct": -0.31,
+      "risk_level": "normal",
+      "transition_status": "normal",
       "flags": [],
       "new_flags": [],
       "cleared_flags": [],
-      "drop_from_high_pct": null,
-      "upper_wick_pct": null,
-      "price_ok": false,
-      "orderbook_ok": false,
+      "drop_from_high_pct": 0.315,
+      "upper_wick_pct": 0.0,
+      "price_ok": true,
+      "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": null,
-      "source_age_seconds": null,
-      "data_state": "no_data"
+      "latest_source_received_at_utc": "2026-09-09T00:36:35+00:00",
+      "source_age_seconds": 16.0,
+      "data_state": "live"
     },
     {
       "code": "200710",
       "name": "에이디테크놀로지",
-      "price": null,
-      "change_rate_pct": null,
-      "risk_level": "unknown",
-      "transition_status": "unavailable",
-      "flags": [],
-      "new_flags": [],
+      "price": 25500,
+      "change_rate_pct": 1.19,
+      "risk_level": "watch",
+      "transition_status": "new",
+      "flags": [
+        "upper_wick_40pct"
+      ],
+      "new_flags": [
+        "upper_wick_40pct"
+      ],
       "cleared_flags": [],
-      "drop_from_high_pct": null,
-      "upper_wick_pct": null,
-      "price_ok": false,
-      "orderbook_ok": false,
+      "drop_from_high_pct": 1.734,
+      "upper_wick_pct": 50.0,
+      "price_ok": true,
+      "orderbook_ok": true,
       "trades_ok": true,
-      "latest_source_received_at_utc": null,
-      "source_age_seconds": null,
-      "data_state": "no_data"
+      "latest_source_received_at_utc": "2026-09-09T00:36:50+00:00",
+      "source_age_seconds": 1.0,
+      "data_state": "live"
     }
   ],
   "notice": "관찰·기록 전용이며 주문 또는 매매 실행과 연결되지 않음"
